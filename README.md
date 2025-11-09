@@ -106,28 +106,36 @@ Bhagavad-Gita/
 
 ## 🚀 Deployment
 
-### GitHub Pages (Automatic)
+### Quick Deployment (Recommended)
 
-This project is configured for automatic deployment to GitHub Pages using GitHub Actions. The workflow will automatically build and deploy your app whenever you push to the `main` branch.
+The easiest way to deploy is using the manual deployment method:
 
-**To enable GitHub Pages:**
+```bash
+npm run deploy
+```
+
+**After running the deploy command, enable GitHub Pages:**
+
+1. Go to your repository on GitHub: https://github.com/TechnoBlogger14o3/Bhagavad-Gita
+2. Navigate to **Settings** → **Pages**
+3. Under **Source**, select **Deploy from a branch**
+4. Select **gh-pages** branch and **/ (root)** folder
+5. Click **Save**
+
+Your app will be available at: `https://technoblogger14o3.github.io/Bhagavad-Gita/`
+
+> **Note:** It may take a few minutes for the site to become available after enabling GitHub Pages.
+
+### Automatic Deployment (GitHub Actions)
+
+This project also includes a GitHub Actions workflow for automatic deployment. To use it:
 
 1. Go to your repository on GitHub
 2. Navigate to **Settings** → **Pages**
 3. Under **Source**, select **GitHub Actions**
 4. The workflow will automatically deploy on the next push to `main`
 
-Your app will be available at: `https://technoblogger14o3.github.io/Bhagavad-Gita/`
-
-### Manual Deployment
-
-You can also deploy manually using:
-
-```bash
-npm run deploy
-```
-
-This will build the project and push it to the `gh-pages` branch.
+The workflow will build and deploy your app automatically whenever you push changes to the `main` branch.
 
 ## 🌟 About the Bhagavad Gita
 
