@@ -1,0 +1,19 @@
+
+export interface Verse {
+  id: number;
+  verse_number: number;
+  chapter_number: number;
+  text: string;
+  transliteration: string;
+  meaning: string;
+}
+
+export interface Chapter {
+  id: number;
+  chapter_number: number;
+  name: string;
+  name_meaning: string;
+  summary: string;
+  verses_count: number;
+  verses: Verse[];
+}
