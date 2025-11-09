@@ -4,6 +4,7 @@ import { Chapter } from './types';
 import { gitaChapters } from './data/gita';
 import ChapterList from './components/ChapterList';
 import ChapterView from './components/ChapterView';
+import Scene3D from './components/Scene3D';
 import ArrowLeftIcon from './components/icons/ArrowLeftIcon';
 
 const App: React.FC = () => {
@@ -20,14 +21,17 @@ const App: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-orange-100 via-orange-50 to-white text-gray-800">
-      <main className="container mx-auto px-4 py-8">
+    <div className="min-h-screen bg-gradient-to-b from-orange-100 via-orange-50 to-white text-gray-800 relative overflow-hidden">
+      {/* 3D Background Scene */}
+      <Scene3D showCharacters={!selectedChapter} />
+      
+      <main className="container mx-auto px-4 py-8 relative z-10">
         <header className="flex justify-between items-center mb-12">
             <div className="flex-1 flex justify-start">
               {selectedChapter && (
                   <button
                     onClick={handleBackToList}
-                    className="flex items-center text-orange-800 hover:text-orange-900 transition-colors"
+                    className="flex items-center text-orange-800 hover:text-orange-900 transition-colors z-20 relative"
                     aria-label="Back to Chapters"
                   >
                     <ArrowLeftIcon />
@@ -35,9 +39,9 @@ const App: React.FC = () => {
                   </button>
               )}
             </div>
-            <div className="text-center">
-              <h1 className="text-4xl md:text-6xl font-bold text-orange-900 font-sanskrit">श्रीमद्भगवद्गीता</h1>
-              <p className="text-xl md:text-2xl text-orange-700 mt-2">The Divine Song of God</p>
+            <div className="text-center relative z-10">
+              <h1 className="text-4xl md:text-6xl font-bold text-orange-900 font-sanskrit drop-shadow-lg">श्रीमद्भगवद्गीता</h1>
+              <p className="text-xl md:text-2xl text-orange-700 mt-2 drop-shadow-md">The Divine Song of God</p>
             </div>
             <div className="flex-1"></div>
         </header>
@@ -48,7 +52,7 @@ const App: React.FC = () => {
           <ChapterList chapters={gitaChapters} onSelectChapter={handleSelectChapter} />
         )}
       </main>
-      <footer className="text-center py-6 text-orange-700/60 text-sm">
+      <footer className="text-center py-6 text-orange-700/60 text-sm relative z-10">
         <p>Inspired by the timeless wisdom of the Bhagavad Gita.</p>
       </footer>
     </div>
