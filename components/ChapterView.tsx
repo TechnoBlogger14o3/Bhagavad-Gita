@@ -3,13 +3,16 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Chapter } from '../types';
 import ChevronLeftIcon from './icons/ChevronLeftIcon';
 import ChevronRightIcon from './icons/ChevronRightIcon';
+import ProgressIndicator from './ProgressIndicator';
+import ShareButton from './ShareButton';
 
 interface ChapterViewProps {
   chapter: Chapter;
+  initialVerseIndex?: number | null;
 }
 
-const ChapterView: React.FC<ChapterViewProps> = ({ chapter }) => {
-  const [currentVerseIndex, setCurrentVerseIndex] = useState(0);
+const ChapterView: React.FC<ChapterViewProps> = ({ chapter, initialVerseIndex = null }) => {
+  const [currentVerseIndex, setCurrentVerseIndex] = useState(initialVerseIndex ?? 0);
   const [isFlipping, setIsFlipping] = useState(false);
   const [nextButtonHover, setNextButtonHover] = useState({ x: 0, y: 0, isHovering: false });
   const [nextButtonPressed, setNextButtonPressed] = useState(false);
@@ -22,11 +25,78 @@ const ChapterView: React.FC<ChapterViewProps> = ({ chapter }) => {
 
   const currentVerse = chapter.verses[currentVerseIndex];
 
+  // Swipe gestures for mobile
+  useEffect(() => {
+    if (isFlipping) return;
+
+    let touchStartX: number | null = null;
+    let touchEndX: number | null = null;
+
+    const handleTouchStart = (e: TouchEvent) => {
+      touchStartX = e.touches[0].clientX;
+    };
+
+    const handleTouchEnd = () => {
+      if (touchStartX === null || touchEndX === null) return;
+      
+      const distance = touchStartX - touchEndX;
+      const minSwipe = 50;
+
+      if (distance > minSwipe && currentVerseIndex < chapter.verses.length - 1) {
+        handleNext();
+      } else if (distance < -minSwipe && currentVerseIndex > 0) {
+        handlePrev();
+      }
+      
+      touchStartX = null;
+      touchEndX = null;
+    };
+
+    const handleTouchMove = (e: TouchEvent) => {
+      touchEndX = e.touches[0].clientX;
+    };
+
+    document.addEventListener('touchstart', handleTouchStart);
+    document.addEventListener('touchend', handleTouchEnd);
+    document.addEventListener('touchmove', handleTouchMove);
+
+    return () => {
+      document.removeEventListener('touchstart', handleTouchStart);
+      document.removeEventListener('touchend', handleTouchEnd);
+      document.removeEventListener('touchmove', handleTouchMove);
+    };
+  }, [currentVerseIndex, chapter.verses.length, isFlipping]);
+
+  useEffect(() => {
+    if (initialVerseIndex !== null) {
+      setCurrentVerseIndex(initialVerseIndex);
+    }
+  }, [initialVerseIndex]);
+
   useEffect(() => {
     if (cardRef.current) {
       cardRef.current.style.transform = 'rotateY(0deg)';
     }
   }, [currentVerseIndex]);
+
+  // Keyboard shortcuts - use actual handler functions
+  useEffect(() => {
+    const handleKeyPress = (e: KeyboardEvent) => {
+      // Don't trigger if user is typing in an input
+      if ((e.target as HTMLElement).tagName === 'INPUT') return;
+
+      if (e.key === 'ArrowRight' || e.key === 'ArrowDown') {
+        e.preventDefault();
+        handleNext();
+      } else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') {
+        e.preventDefault();
+        handlePrev();
+      }
+    };
+
+    window.addEventListener('keydown', handleKeyPress);
+    return () => window.removeEventListener('keydown', handleKeyPress);
+  }, [currentVerseIndex, chapter.verses.length, isFlipping]);
 
   // Continuous pulse animation
   useEffect(() => {
@@ -137,6 +207,9 @@ const ChapterView: React.FC<ChapterViewProps> = ({ chapter }) => {
 
   return (
     <div className="w-full">
+      {/* Progress Indicator */}
+      <ProgressIndicator chapter={chapter} currentVerseIndex={currentVerseIndex} />
+      
       <div className="relative max-w-4xl mx-auto">
         <div 
           style={{
@@ -147,7 +220,7 @@ const ChapterView: React.FC<ChapterViewProps> = ({ chapter }) => {
         >
           <div
             ref={cardRef}
-            className="bg-white/60 backdrop-blur-sm border border-orange-200/50 rounded-xl shadow-lg p-6 md:p-8 text-center"
+            className="bg-white/60 dark:bg-gray-800/60 backdrop-blur-sm border border-orange-200/50 dark:border-orange-800/50 rounded-xl shadow-lg p-6 md:p-8 text-center"
             style={{
               transformStyle: 'preserve-3d',
               transition: 'transform 0.6s cubic-bezier(0.4, 0, 0.2, 1)',
@@ -155,9 +228,9 @@ const ChapterView: React.FC<ChapterViewProps> = ({ chapter }) => {
             }}
           >
             <div style={{ backfaceVisibility: 'hidden' }}>
-              <p className="font-sanskrit text-2xl md:text-3xl text-orange-900 leading-relaxed mb-4">{currentVerse.text}</p>
-              <p className="text-lg md:text-xl text-orange-800 italic mb-6">{currentVerse.transliteration}</p>
-              <p className="text-gray-700 leading-relaxed">{currentVerse.meaning}</p>
+                <p className="font-sanskrit text-2xl md:text-3xl text-orange-900 dark:text-orange-300 leading-relaxed mb-4">{currentVerse.text}</p>
+                <p className="text-lg md:text-xl text-orange-800 dark:text-orange-400 italic mb-6">{currentVerse.transliteration}</p>
+                <p className="text-gray-700 dark:text-gray-300 leading-relaxed">{currentVerse.meaning}</p>
             </div>
           </div>
         </div>
@@ -167,13 +240,22 @@ const ChapterView: React.FC<ChapterViewProps> = ({ chapter }) => {
               onClick={handlePrev} 
               disabled={currentVerseIndex === 0}
               className="flex items-center px-4 py-2 bg-orange-800 text-white rounded-lg shadow-md hover:bg-orange-900 disabled:bg-gray-400 disabled:cursor-not-allowed transition-colors"
+              aria-label="Previous verse"
             >
               <ChevronLeftIcon />
               <span className="ml-2">Previous</span>
             </button>
-            <span className="text-orange-800 font-semibold">
-              Verse {currentVerse.verse_number} of {chapter.verses_count}
-            </span>
+            <div className="flex flex-col items-center gap-2">
+              <div className="flex items-center gap-3">
+                <span className="text-orange-800 dark:text-orange-300 font-semibold">
+                  Verse {currentVerse.verse_number} of {chapter.verses_count}
+                </span>
+                <ShareButton chapter={chapter} verse={currentVerse} />
+              </div>
+              <span className="text-xs text-gray-500 dark:text-gray-400">
+                Use ← → arrow keys or swipe to navigate
+              </span>
+            </div>
             <div
               style={{
                 perspective: '1000px',
