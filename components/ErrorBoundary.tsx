@@ -1,0 +1,53 @@
+import React, { Component, ErrorInfo, ReactNode } from 'react';
+
+interface Props {
+  children: ReactNode;
+  fallback?: ReactNode;
+}
+
+interface State {
+  hasError: boolean;
+  error?: Error;
+}
+
+class ErrorBoundary extends Component<Props, State> {
+  public state: State = {
+    hasError: false,
+  };
+
+  public static getDerivedStateFromError(error: Error): State {
+    return { hasError: true, error };
+  }
+
+  public componentDidCatch(error: Error, errorInfo: ErrorInfo) {
+    console.error('Uncaught error:', error, errorInfo);
+  }
+
+  public render() {
+    if (this.state.hasError) {
+      return this.props.fallback || (
+        <div className="min-h-screen flex items-center justify-center bg-gradient-to-b from-orange-100 via-orange-50 to-white dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
+          <div className="text-center p-8 bg-white/60 dark:bg-gray-800/60 backdrop-blur-sm border border-orange-200/50 dark:border-orange-800/50 rounded-xl shadow-lg max-w-md">
+            <h2 className="text-2xl font-bold text-orange-900 dark:text-orange-300 mb-4">
+              Something went wrong
+            </h2>
+            <p className="text-gray-700 dark:text-gray-300 mb-6">
+              We encountered an error while loading the content. Please refresh the page.
+            </p>
+            <button
+              onClick={() => window.location.reload()}
+              className="px-6 py-2 bg-orange-800 dark:bg-orange-600 text-white rounded-lg hover:bg-orange-900 dark:hover:bg-orange-700 transition-colors"
+            >
+              Refresh Page
+            </button>
+          </div>
+        </div>
+      );
+    }
+
+    return this.props.children;
+  }
+}
+
+export default ErrorBoundary;
+
