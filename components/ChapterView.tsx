@@ -230,6 +230,9 @@ const ChapterView: React.FC<ChapterViewProps> = ({ chapter, initialVerseIndex = 
             <div style={{ backfaceVisibility: 'hidden' }}>
                 <p className="font-sanskrit text-2xl md:text-3xl text-orange-900 dark:text-orange-300 leading-relaxed mb-4">{currentVerse.text}</p>
                 <p className="text-lg md:text-xl text-orange-800 dark:text-orange-400 italic mb-6">{currentVerse.transliteration}</p>
+                {currentVerse.hindi_meaning && (
+                  <p className="text-lg md:text-xl text-orange-700 dark:text-orange-400 mb-6 leading-relaxed">{currentVerse.hindi_meaning}</p>
+                )}
                 <p className="text-gray-700 dark:text-gray-300 leading-relaxed">{currentVerse.meaning}</p>
             </div>
           </div>

@@ -32,6 +32,7 @@ const SearchBar: React.FC<SearchBarProps> = ({ chapters, onSelectChapter, onSele
         chapter.verses.forEach(verse => {
           if (verse.text.toLowerCase().includes(query) ||
               verse.transliteration.toLowerCase().includes(query) ||
+              (verse.hindi_meaning && verse.hindi_meaning.toLowerCase().includes(query)) ||
               verse.meaning.toLowerCase().includes(query)) {
             const existing = searchResults.find(r => r.chapter.id === chapter.id);
             if (!existing) {

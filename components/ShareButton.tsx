@@ -9,7 +9,7 @@ interface ShareButtonProps {
 const ShareButton: React.FC<ShareButtonProps> = ({ chapter, verse }) => {
   const [copied, setCopied] = useState(false);
 
-  const shareText = `${chapter.name} - Verse ${verse.verse_number}\n\n${verse.text}\n\n${verse.transliteration}\n\n${verse.meaning}\n\n— Bhagavad Gita`;
+  const shareText = `${chapter.name} - Verse ${verse.verse_number}\n\n${verse.text}\n\n${verse.transliteration}\n${verse.hindi_meaning ? `\n${verse.hindi_meaning}\n` : ''}${verse.meaning}\n\n— Bhagavad Gita`;
 
   const handleShare = async () => {
     const shareData = {
