@@ -5611,9 +5611,884 @@ export const gitaChapters: Chapter[] = [
         "chapter_number": 17,
         "text": "यातयामं गतरसं पूति पर्युषितं च यत् |\nउच्छिष्टमपि चामेध्यं भोजनं तामसप्रियम् ||१७-१०||",
         "transliteration": "yāta-yāmaṁ gata-rasaṁ pūti paryuṣhitaṁ cha yat\nuchchhiṣhṭam api chāmedhyaṁ bhojanaṁ tāmasa-priyam",
-        "hindi_meaning": "श्री भगवान ने कहा: हे अर्जुन! हे परंतप! मेरे और तुम्हारे अनेक जन्म बीत चुके हैं। मैं सभी को जानता हूँ, लेकिन तुम नहीं जानते।",
+        "hindi_meaning": "जो भोजन तीन घंटे से अधिक पुराना, बिना स्वाद का, सड़ा हुआ और अशुद्ध है, वह तामस प्रकृति वालों को प्रिय है।",
         "meaning": "Food prepared more than three hours before being eaten, food that is tasteless, decomposed and putrid, and food consisting of remnants and untouchable things is dear to those in the mode of darkness."
+      },
+      {
+        "id": 605,
+        "verse_number": 11,
+        "chapter_number": 17,
+        "text": "अफलाकाङ्क्षिभिर्यज्ञो विधिदिष्टो य इज्यते |\nयष्टव्यमेवेति मनः समाधाय स सात्त्विकः ||१७-११||",
+        "transliteration": "aphalākāṅkṣhibhir yajño vidhi-diṣhṭo ya ijyate\nyaṣhṭavyam eveti manaḥ samādhāya sa sāttvikaḥ",
+        "hindi_meaning": "जो यज्ञ फल की इच्छा न रखने वालों द्वारा विधि से किया जाता है और 'यज्ञ करना ही चाहिए' ऐसा मन में समाधान करके किया जाता है, वह सात्त्विक है।",
+        "meaning": "Of sacrifices, the sacrifice performed according to the directions of scripture, as a matter of duty, by those who desire no reward, is of the nature of goodness."
+      },
+      {
+        "id": 606,
+        "verse_number": 12,
+        "chapter_number": 17,
+        "text": "अभिसन्धाय तु फलं दम्भार्थमपि चैव यत् |\nइज्यते भरतश्रेष्ठ तं यज्ञं विद्धि राजसम् ||१७-१२||",
+        "transliteration": "abhisandhāya tu phalaṁ dambhārtham api chaiva yat\nijyate bharata-śhreṣhṭha taṁ yajñaṁ viddhi rājasam",
+        "hindi_meaning": "हे भरतश्रेष्ठ! जो यज्ञ फल की इच्छा से या दम्भ के लिए किया जाता है, उसे राजस यज्ञ जानो।",
+        "meaning": "But the sacrifice performed for some material benefit, or for the sake of pride, O chief of the Bharatas, you should know to be in the mode of passion."
+      },
+      {
+        "id": 607,
+        "verse_number": 13,
+        "chapter_number": 17,
+        "text": "विधिहीनमसृष्टान्नं मन्त्रहीनमदक्षिणम् |\nश्रद्धाविरहितं यज्ञं तामसं परिचक्षते ||१७-१३||",
+        "transliteration": "vidhi-hīnam asṛiṣhṭānnaṁ mantra-hīnam adakṣhiṇam\nśhraddhā-virahitaṁ yajñaṁ tāmasaṁ parichakṣhate",
+        "hindi_meaning": "जो यज्ञ विधि रहित, अन्न बिना, मन्त्र रहित, दक्षिणा रहित और श्रद्धा रहित है, उसे तामस यज्ञ कहा जाता है।",
+        "meaning": "Any sacrifice performed without regard for the directions of scripture, without distribution of prasādam [spiritual food], without chanting of Vedic hymns and remunerations to the priests, and without faith is considered to be in the mode of ignorance."
+      },
+      {
+        "id": 608,
+        "verse_number": 14,
+        "chapter_number": 17,
+        "text": "देवद्विजगुरुप्राज्ञपूजनं शौचमार्जवम् |\nब्रह्मचर्यमहिंसा च शारीरं तप उच्यते ||१७-१४||",
+        "transliteration": "deva-dvija-guru-prājña-pūjanaṁ śhaucham ārjavam\nbrahmacharyam ahiṁsā cha śhārīraṁ tapa uchyate",
+        "hindi_meaning": "देव, द्विज, गुरु और प्राज्ञ की पूजा, शौच, आर्जव, ब्रह्मचर्य और अहिंसा - ये शारीर तप कहा जाता है।",
+        "meaning": "Austerity of the body consists in worship of the Supreme Lord, the brāhmaṇas, the spiritual master, and superiors like the father and mother, and in cleanliness, simplicity, celibacy and nonviolence."
+      },
+      {
+        "id": 609,
+        "verse_number": 15,
+        "chapter_number": 17,
+        "text": "अनुद्वेगकरं वाक्यं सत्यं प्रियहितं च यत् |\nस्वाध्यायाभ्यसनं चैव वाङ्मयं तप उच्यते ||१७-१५||",
+        "transliteration": "anudvega-karaṁ vākyaṁ satyaṁ priya-hitaṁ cha yat\nsvādhyāyābhyasanaṁ chaiva vāṅ-mayaṁ tapa uchyate",
+        "hindi_meaning": "अनुद्वेग करने वाला, सत्य, प्रिय और हितकारी वाक्य और स्वाध्याय का अभ्यास - ये वाङ्मय तप कहा जाता है।",
+        "meaning": "Austerity of speech consists in speaking words that are truthful, pleasing, beneficial, and not agitating to others, and also in regularly reciting Vedic literature."
+      },
+      {
+        "id": 610,
+        "verse_number": 16,
+        "chapter_number": 17,
+        "text": "मनःप्रसादः सौम्यत्वं मौनमात्मविनिग्रहः |\nभावसंशुद्धिरित्येतत्तपो मानसमुच्यते ||१७-१६||",
+        "transliteration": "manaḥ-prasādaḥ saumyatvaṁ maunam ātma-vinigrahaḥ\nbhāva-saṁśhuddhir ity etat tapo mānasam uchyate",
+        "hindi_meaning": "मन की प्रसन्नता, सौम्यता, मौन, आत्मा का निग्रह और भाव की शुद्धि - ये मानस तप कहा जाता है।",
+        "meaning": "And serenity, simplicity, gravity, self-control and purity of thought are the austerities of the mind."
+      },
+      {
+        "id": 611,
+        "verse_number": 17,
+        "chapter_number": 17,
+        "text": "श्रद्धया परया तप्तं तपस्तत्त्रिविधं नरैः |\nअफलाकाङ्क्षिभिर्युक्तैः सात्त्विकं परिचक्षते ||१७-१७||",
+        "transliteration": "śhraddhayā parayā taptaṁ tapas tat tri-vidhaṁ naraiḥ\naphalākāṅkṣhibhir yuktaiḥ sāttvikaṁ parichakṣhate",
+        "hindi_meaning": "परा श्रद्धा से तप्त किया गया, फल की इच्छा न रखने वालों द्वारा युक्त त्रिविध तप सात्त्विक कहा जाता है।",
+        "meaning": "This threefold austerity, performed with transcendental faith by men not expecting material benefits but engaged only for the sake of the Supreme, is called austerity in goodness."
+      },
+      {
+        "id": 612,
+        "verse_number": 18,
+        "chapter_number": 17,
+        "text": "सत्कारमानपूजार्थं तपो दम्भेन चैव यत् |\nक्रियते तदिह प्रोक्तं राजसं चलमध्रुवम् ||१७-१८||",
+        "transliteration": "satkāra-māna-pūjārthaṁ tapo dambhena chaiva yat\nkriyate tad iha proktaṁ rājasaṁ chalam adhruvam",
+        "hindi_meaning": "जो तप सत्कार, मान और पूजा के लिए या दम्भ से किया जाता है, वह यहाँ राजस कहा गया है, जो चल और अध्रुव है।",
+        "meaning": "Penance performed out of pride and for the sake of gaining respect, honor and worship is said to be in the mode of passion. It is neither stable nor permanent."
+      },
+      {
+        "id": 613,
+        "verse_number": 19,
+        "chapter_number": 17,
+        "text": "मूढग्राहेणात्मनो यत्पीडया क्रियते तपः |\nपरस्योत्सादनार्थं वा तत्तामसमुदाहृतम् ||१७-१९||",
+        "transliteration": "mūḍha-grāheṇātmano yat pīḍayā kriyate tapaḥ\nparasyotsādanārthaṁ vā tat tāmasam udāhṛitam",
+        "hindi_meaning": "जो तप मूढ़ ग्रहण से आत्मा को पीड़ा देकर या दूसरों को नष्ट करने के लिए किया जाता है, उसे तामस कहा गया है।",
+        "meaning": "Penance performed out of foolishness, with self-torture, or to destroy or injure others, is said to be in the mode of ignorance."
+      },
+      {
+        "id": 614,
+        "verse_number": 20,
+        "chapter_number": 17,
+        "text": "दातव्यमिति यद्दानं दीयतेऽनुपकारिणे |\nदेशे काले च पात्रे च तद्दानं सात्त्विकं स्मृतम् ||१७-२०||",
+        "transliteration": "dātavyam iti yad dānaṁ dīyate 'nupakāriṇe\ndeśhe kāle cha pātre cha tad dānaṁ sāttvikaṁ smṛitam",
+        "hindi_meaning": "जो दान 'देना चाहिए' ऐसा समझकर अनुपकारी को, उचित देश, काल और पात्र में दिया जाता है, वह सात्त्विक दान कहा जाता है।",
+        "meaning": "Charity given out of duty, without expectation of return, at the proper time and place, and to a worthy person is considered to be in the mode of goodness."
+      },
+      {
+        "id": 615,
+        "verse_number": 21,
+        "chapter_number": 17,
+        "text": "यत्तु प्रत्युपकारार्थं फलमुद्दिश्य वा पुनः |\nदीयते च परिक्लिष्टं तद्दानं राजसं स्मृतम् ||१७-२१||",
+        "transliteration": "yat tu pratyupakārārthaṁ phalam uddiśhya vā punaḥ\ndīyate cha parikliṣhṭaṁ tad dānaṁ rājasaṁ smṛitam",
+        "hindi_meaning": "जो दान प्रत्युपकार की इच्छा से या फल की इच्छा से या क्लेश से दिया जाता है, वह राजस दान कहा जाता है।",
+        "meaning": "But charity performed with the expectation of some return, or with a desire for fruitive results, or in a grudging mood, is said to be charity in the mode of passion."
+      },
+      {
+        "id": 616,
+        "verse_number": 22,
+        "chapter_number": 17,
+        "text": "अदेशकाले यद्दानमपात्रेभ्यश्च दीयते |\nअसत्कृतमवज्ञातं तत्तामसमुदाहृतम् ||१७-२२||",
+        "transliteration": "adeśha-kāle yad dānam apātrebhyaśh cha dīyate\nasatkṛitam avajñātaṁ tat tāmasam udāhṛitam",
+        "hindi_meaning": "जो दान अदेश, अकाल में या अपात्र को असत्कृत और अवज्ञात रूप से दिया जाता है, उसे तामस दान कहा गया है।",
+        "meaning": "And charity performed at an impure place, at an improper time, to unworthy persons, or without proper attention and respect is said to be in the mode of ignorance."
+      },
+      {
+        "id": 617,
+        "verse_number": 23,
+        "chapter_number": 17,
+        "text": "ॐ तत्सदिति निर्देशो ब्रह्मणस्त्रिविधः स्मृतः |\nब्राह्मणास्तेन वेदाश्च यज्ञाश्च विहिताः पुरा ||१७-२३||",
+        "transliteration": "oṁ tat sad iti nirdeśho brahmaṇas tri-vidhaḥ smṛitaḥ\nbrāhmaṇās tena vedāśh cha yajñāśh cha vihitāḥ purā",
+        "hindi_meaning": "ओं तत् सत् - यह ब्रह्म का त्रिविध निर्देश कहा गया है। उससे पुरा ब्राह्मण, वेद और यज्ञ विहित हैं।",
+        "meaning": "From the beginning of creation, the three words oṁ tat sat were used to indicate the Supreme Absolute Truth. These three symbolic representations were used by brāhmaṇas while chanting the hymns of the Vedas and during sacrifices, for the satisfaction of the Supreme."
+      },
+      {
+        "id": 618,
+        "verse_number": 24,
+        "chapter_number": 17,
+        "text": "तस्मादोमित्युदाहृत्य यज्ञदानतपःक्रियाः |\nप्रवर्तन्ते विधानोक्ताः सततं ब्रह्मवादिनाम् ||१७-२४||",
+        "transliteration": "tasmād oṁ ity udāhṛitya yajña-dāna-tapaḥ-kriyāḥ\npravartante vidhānoktāḥ satataṁ brahma-vādinām",
+        "hindi_meaning": "इसलिए 'ओं' कहकर यज्ञ, दान और तप की क्रियाएँ ब्रह्मवादियों द्वारा सदा विधानोक्त रूप से प्रवर्तित होती हैं।",
+        "meaning": "Therefore, transcendentalists undertaking performances of sacrifice, charity and penance begin with oṁ to attain the Supreme."
+      },
+      {
+        "id": 619,
+        "verse_number": 25,
+        "chapter_number": 17,
+        "text": "तदित्यनभिसन्धाय फलं यज्ञतपःक्रियाः |\nदानक्रियाश्च विविधाः क्रियन्ते मोक्षकाङ्क्षिभिः ||१७-२५||",
+        "transliteration": "tad ity anabhisandhāya phalaṁ yajña-tapaḥ-kriyāḥ\ndāna-kriyāśh cha vividhāḥ kriyante mokṣha-kāṅkṣhibhiḥ",
+        "hindi_meaning": "मोक्ष की इच्छा रखने वाले 'तत्' कहकर फल की इच्छा न रखकर यज्ञ, तप और दान की विविध क्रियाएँ करते हैं।",
+        "meaning": "Without desiring fruitive results, one should perform various kinds of sacrifice, penance and charity with the word tat. The purpose of such transcendental activities is to get free from material entanglement."
+      },
+      {
+        "id": 620,
+        "verse_number": 26,
+        "chapter_number": 17,
+        "text": "सद्भावे साधुभावे च सदित्येतत्प्रयुज्यते |\nप्रशस्ते कर्मणि तथा सच्छब्दः पार्थ युज्यते ||१७-२६||",
+        "transliteration": "sad-bhāve sādhu-bhāve cha sad ity etat prayujyate\npraśhaste karmaṇi tathā sac-chabdaḥ pārtha yujyate",
+        "hindi_meaning": "हे पार्थ! सद्भाव और साधुभाव में 'सत्' शब्द का प्रयोग होता है और प्रशस्त कर्म में भी 'सत्' शब्द का प्रयोग होता है।",
+        "meaning": "The Absolute Truth is the objective of devotional sacrifice, and it is indicated by the word sat. The performer of such sacrifice is also called sat, as are all works of sacrifice, penance and charity which, true to the absolute nature, are performed to please the Supreme Person, O son of Pritha."
+      },
+      {
+        "id": 621,
+        "verse_number": 27,
+        "chapter_number": 17,
+        "text": "यज्ञे तपसि दाने च स्थितिः सदिति चोच्यते |\nकर्म चैव तदर्थीयं सदित्येवाभिधीयते ||१७-२७||",
+        "transliteration": "yajñe tapasi dāne cha sthitiḥ sad iti chochyate\nkarma chaiva tad-arthīyaṁ sad ity evābhidhīyate",
+        "hindi_meaning": "यज्ञ, तप और दान में स्थिति को 'सत्' कहा जाता है और उसके अर्थ के लिए कर्म को भी 'सत्' कहा जाता है।",
+        "meaning": "And whatever is done for the sake of sacrifice, charity and penance, O son of Pritha, is called sat, and activities done for sat's sake are also called sat."
+      },
+      {
+        "id": 622,
+        "verse_number": 28,
+        "chapter_number": 17,
+        "text": "अश्रद्धया हुतं दत्तं तपस्तप्तं कृतं च यत् |\nअसदित्युच्यते पार्थ न च तत्प्रेत्य नो इह ||१७-२८||",
+        "transliteration": "aśhraddhayā hutaṁ dattaṁ tapas taptaṁ kṛitaṁ cha yat\nasad ity uchyate pārtha na cha tat pretya no iha",
+        "hindi_meaning": "हे पार्थ! जो हवन, दान, तप और कर्म श्रद्धा के बिना किया जाता है, उसे 'असत्' कहा जाता है। वह न इहलोक में और न परलोक में फल देता है।",
+        "meaning": "But sacrifice, charity and penance performed without faith in the Supreme are nonpermanent, O son of Pritha, regardless of whatever rites are performed. They are called asat and are useless both in this life and the next."
       }
     ]
-  }
+  },
+
+  {
+    "id": 18,
+    "name": "मोक्षसंन्यासयोग",
+    "name_meaning": "Moksha-Sannyasa Yoga",
+    "chapter_number": 18,
+    "verses_count": 78,
+    "summary": "The final chapter of the Bhagavad Gita, where Arjuna asks about the distinction between renunciation (sannyasa) and the renunciation of the fruits of action (tyaga). Krishna explains the three types of renunciation, the three types of knowledge, action, and actors, and concludes with the ultimate message of surrendering to God.",
+    "verses": [
+      {
+        "id": 605,
+        "verse_number": 1,
+        "chapter_number": 18,
+        "text": "अर्जुन उवाच |\nसंन्यासस्य महाबाहो तत्त्वमिच्छामि वेदितुम् |\nत्यागस्य च हृषीकेश पृथक्केशिनिषूदन ||१८-१||",
+        "transliteration": "arjuna uvācha\nsannyāsasya mahābāho tattvam ichchhāmi veditum\ntyāgasya cha hṛiṣhīkeśha pṛithak keśhiniṣhūdana",
+        "hindi_meaning": "अर्जुन ने कहा: हे महाबाहो! हे हृषीकेश! हे केशिनिषूदन! मैं संन्यास और त्याग के तत्त्व को अलग-अलग जानना चाहता हूँ।",
+        "meaning": "Arjuna said: O mighty-armed one, I wish to understand the nature of renunciation [sannyasa] and also the nature of renunciation of fruits of action [tyaga], O killer of the Keshi demon, master of the senses."
+      },
+      {
+        "id": 606,
+        "verse_number": 2,
+        "chapter_number": 18,
+        "text": "श्रीभगवानुवाच |\nकाम्यानां कर्मणां न्यासं संन्यासं कवयो विदुः |\nसर्वकर्मफलत्यागं प्राहुस्त्यागं विचक्षणाः ||१८-२||",
+        "transliteration": "śhrī bhagavān uvācha\nkāmyānāṁ karmaṇāṁ nyāsaṁ sannyāsaṁ kavayo viduḥ\nsarva-karma-phala-tyāgaṁ prāhus tyāgaṁ vichakṣhaṇāḥ",
+        "hindi_meaning": "श्री भगवान ने कहा: कवियों ने काम्य कर्मों के त्याग को संन्यास कहा है और विचक्षणों ने सभी कर्मों के फल के त्याग को त्याग कहा है।",
+        "meaning": "The Supreme Personality of Godhead said: The giving up of activities that are based on material desire is what great learned men call the renounced order of life [sannyasa]. And giving up the results of all activities is what the wise call renunciation [tyaga]."
+      },
+      {
+        "id": 607,
+        "verse_number": 3,
+        "chapter_number": 18,
+        "text": "त्याज्यं दोषवदित्येके कर्म प्राहुर्मनीषिणः |\nयज्ञदानतपःकर्म न त्याज्यमिति चापरे ||१८-३||",
+        "transliteration": "tyājyaṁ doṣha-vad ity eke karma prāhur manīṣhiṇaḥ\nyajña-dāna-tapaḥ-karma na tyājyam iti chāpare",
+        "hindi_meaning": "कुछ विद्वान कहते हैं कि सभी कर्म दोषपूर्ण हैं और त्यागने योग्य हैं, जबकि अन्य कहते हैं कि यज्ञ, दान और तप के कर्म त्यागने योग्य नहीं हैं।",
+        "meaning": "Some learned men declare that all kinds of fruitive activities should be given up as faulty, yet other sages maintain that acts of sacrifice, charity and penance should never be abandoned."
+      },
+      {
+        "id": 608,
+        "verse_number": 4,
+        "chapter_number": 18,
+        "text": "निश्चयं शृणु मे तत्र त्यागे भरतसत्तम |\nत्यागो हि पुरुषव्याघ्र त्रिविधः संप्रकीर्तितः ||१८-४||",
+        "transliteration": "niśhchayaṁ śhṛiṇu me tatra tyāge bharata-sattama\ntyāgo hi puruṣha-vyāghra tri-vidhaḥ samprakīrtitaḥ",
+        "hindi_meaning": "हे भरतश्रेष्ठ! हे पुरुषव्याघ्र! त्याग के विषय में मेरा निश्चय सुनो। त्याग तीन प्रकार का कहा गया है।",
+        "meaning": "O best of the Bharatas, hear from Me now My final judgment about renunciation. O tiger among men, renunciation is declared in the scriptures to be of three kinds."
+      },
+      {
+        "id": 609,
+        "verse_number": 5,
+        "chapter_number": 18,
+        "text": "यज्ञदानतपःकर्म न त्याज्यं कार्यमेव तत् |\nयज्ञो दानं तपश्चैव पावनानि मनीषिणाम् ||१८-५||",
+        "transliteration": "yajña-dāna-tapaḥ-karma na tyājyaṁ kāryam eva tat\nyajño dānaṁ tapaśh chaiva pāvanāni manīṣhiṇām",
+        "hindi_meaning": "यज्ञ, दान और तप के कर्म त्यागने योग्य नहीं हैं, उन्हें अवश्य करना चाहिए। यज्ञ, दान और तप - ये सभी विद्वानों को पवित्र करने वाले हैं।",
+        "meaning": "Acts of sacrifice, charity and penance are not to be given up; they must be performed. Indeed, sacrifice, charity and penance purify even the great souls."
+      },
+      {
+        "id": 610,
+        "verse_number": 6,
+        "chapter_number": 18,
+        "text": "एतान्यपि तु कर्माणि सङ्गं त्यक्त्वा फलानि च |\nकर्तव्यानीति मे पार्थ निश्चितं मतमुत्तमम् ||१८-६||",
+        "transliteration": "etāny api tu karmāṇi saṅgaṁ tyaktvā phalāni cha\nkartavyānīti me pārtha niśhchitaṁ matam uttamam",
+        "hindi_meaning": "हे पार्थ! इन कर्मों को भी आसक्ति और फल को त्यागकर करना चाहिए। यह मेरा निश्चित और उत्तम मत है।",
+        "meaning": "All these activities should be performed without attachment or any expectation of result. They should be performed as a matter of duty, O son of Pritha. That is My final opinion."
+      },
+      {
+        "id": 611,
+        "verse_number": 7,
+        "chapter_number": 18,
+        "text": "नियतस्य तु संन्यासः कर्मणो नोपपद्यते |\nमोहात्तस्य परित्यागस्तामसः परिकीर्तितः ||१८-७||",
+        "transliteration": "niyatasya tu sannyāsaḥ karmaṇo nopapadyate\nmohāt tasya parityāgas tāmasaḥ parikīrtitaḥ",
+        "hindi_meaning": "नियत कर्म का संन्यास उचित नहीं है। मोह से उसका त्याग तामस कहा गया है।",
+        "meaning": "Prescribed duties should never be renounced. If one gives up his prescribed duties because of illusion, such renunciation is said to be in the mode of ignorance."
+      },
+      {
+        "id": 612,
+        "verse_number": 8,
+        "chapter_number": 18,
+        "text": "दुःखमित्येव यत्कर्म कायक्लेशभयात्त्यजेत् |\nस कृत्वा राजसं त्यागं नैव त्यागफलं लभेत् ||१८-८||",
+        "transliteration": "duḥkham ity eva yat karma kāya-kleśha-bhayāt tyajet\nsa kṛitvā rājasaṁ tyāgaṁ naiva tyāga-phalaṁ labhet",
+        "hindi_meaning": "जो व्यक्ति कर्म को दुःखमय समझकर शरीर के क्लेश के भय से त्याग देता है, वह राजस त्याग करता है और त्याग का फल नहीं पाता।",
+        "meaning": "Anyone who gives up prescribed duties as troublesome or out of fear of bodily discomfort is said to have renounced in the mode of passion. Such action never leads to the elevation of renunciation."
+      },
+      {
+        "id": 613,
+        "verse_number": 9,
+        "chapter_number": 18,
+        "text": "कार्यमित्येव यत्कर्म नियतं क्रियतेऽर्जुन |\nसङ्गं त्यक्त्वा फलं चैव स त्यागः सात्त्विको मतः ||१८-९||",
+        "transliteration": "kāryam ity eva yat karma niyataṁ kriyate 'rjuna\nsaṅgaṁ tyaktvā phalaṁ chaiva sa tyāgaḥ sāttviko mataḥ",
+        "hindi_meaning": "हे अर्जुन! जो नियत कर्म को कर्तव्य समझकर आसक्ति और फल को त्यागकर करता है, वह सात्त्विक त्याग कहा जाता है।",
+        "meaning": "O Arjuna, when one performs his prescribed duty only because it ought to be done, and renounces all material association and all attachment to the fruit, his renunciation is said to be in the mode of goodness."
+      },
+      {
+        "id": 614,
+        "verse_number": 10,
+        "chapter_number": 18,
+        "text": "न द्वेष्ट्यकुशलं कर्म कुशले नानुषज्जते |\nत्यागी सत्त्वसमाविष्टो मेधावी छिन्नसंशयः ||१८-१०||",
+        "transliteration": "na dveṣhṭy akuśhalaṁ karma kuśhale nānuṣhajjate\ntyāgī sattva-samāviṣhṭo medhāvī chhinna-saṁśhayaḥ",
+        "hindi_meaning": "जो त्यागी सत्त्वगुण से युक्त, बुद्धिमान और संशयरहित है, वह न तो अकुशल कर्म से द्वेष करता है और न ही कुशल कर्म में आसक्त होता है।",
+        "meaning": "Those who are situated in the mode of goodness, who are wise, who have renounced the fruits of their actions, and whose doubts are destroyed by transcendental knowledge, have no hatred for disagreeable work nor attachment for agreeable work."
+      },
+      {
+        "id": 615,
+        "verse_number": 11,
+        "chapter_number": 18,
+        "text": "न हि देहभृता शक्यं त्यक्तुं कर्माण्यशेषतः |\nयस्तु कर्मफलत्यागी स त्यागीत्यभिधीयते ||१८-११||",
+        "transliteration": "na hi deha-bhṛitā śhakyaṁ tyaktuṁ karmāṇy aśheṣhataḥ\nyas tu karma-phala-tyāgī sa tyāgīty abhidhīyate",
+        "hindi_meaning": "निश्चय ही देहधारी व्यक्ति सभी कर्मों को पूर्णतः त्याग नहीं सकता। जो कर्मफल का त्याग करता है, वही त्यागी कहलाता है।",
+        "meaning": "It is indeed impossible for an embodied being to give up all activities. But he who renounces the fruits of action is called one who has truly renounced."
+      },
+      {
+        "id": 616,
+        "verse_number": 12,
+        "chapter_number": 18,
+        "text": "अनिष्टमिष्टं मिश्रं च त्रिविधं कर्मणः फलम् |\nभवत्यत्यागिनां प्रेत्य न तु संन्यासिनां क्वचित् ||१८-१२||",
+        "transliteration": "aniṣhṭam iṣhṭaṁ miśhraṁ cha tri-vidhaṁ karmaṇaḥ phalam\nbhavaty atyāgināṁ pretya na tu sannyāsināṁ kvachit",
+        "hindi_meaning": "त्याग न करने वालों के लिए मृत्यु के बाद कर्म का फल तीन प्रकार का होता है - अनिष्ट, इष्ट और मिश्र। लेकिन संन्यासियों के लिए ऐसा नहीं होता।",
+        "meaning": "For one who is not renounced, the threefold fruits of action—desirable, undesirable and mixed—accrue after death. But those who are in the renounced order of life have no such results to suffer or enjoy."
+      },
+      {
+        "id": 617,
+        "verse_number": 13,
+        "chapter_number": 18,
+        "text": "पञ्चैतानि महाबाहो कारणानि निबोध मे |\nसाङ्ख्ये कृतान्ते प्रोक्तानि सिद्धये सर्वकर्मणाम् ||१८-१३||",
+        "transliteration": "pañchaitāni mahābāho kāraṇāni nibodha me\nsāṅkhye kṛitānte proktāni siddhaye sarva-karmaṇām",
+        "hindi_meaning": "हे महाबाहो! सभी कर्मों की सिद्धि के लिए सांख्य के अंत में कहे गए इन पाँच कारणों को मुझसे सुनो।",
+        "meaning": "O mighty-armed one, learn from Me of the five factors in the accomplishment of all actions, as explained in the sankhya philosophy for understanding the end of all works."
+      },
+      {
+        "id": 618,
+        "verse_number": 14,
+        "chapter_number": 18,
+        "text": "अधिष्ठानं तथा कर्ता करणं च पृथग्विधम् |\nविविधाश्च पृथक्चेष्टा दैवं चैवात्र पञ्चमम् ||१८-१४||",
+        "transliteration": "adhiṣhṭhānaṁ tathā kartā karaṇaṁ cha pṛithag-vidham\nvividhāśh cha pṛithak cheṣhṭā daivaṁ chaivātra pañchamam",
+        "hindi_meaning": "अधिष्ठान (शरीर), कर्ता (आत्मा), विविध करण (इन्द्रियाँ), पृथक् चेष्टा (प्राण) और दैव (परमात्मा) - ये पाँच कारण हैं।",
+        "meaning": "The place of action [the body], the performer, the various senses, the many different kinds of endeavor, and ultimately the Supersoul—these are the five factors of action."
+      },
+      {
+        "id": 619,
+        "verse_number": 15,
+        "chapter_number": 18,
+        "text": "शरीरवाङ्मनोभिर्यत्कर्म प्रारभते नरः |\nन्याय्यं वा विपरीतं वा पञ्चैते तस्य हेतवः ||१८-१५||",
+        "transliteration": "śharīra-vāṅ-manobhir yat karma prārabhate naraḥ\nnyāyyaṁ vā viparītaṁ vā pañchaite tasya hetavaḥ",
+        "hindi_meaning": "मनुष्य जो भी कर्म शरीर, वाणी या मन से प्रारम्भ करता है, चाहे वह न्याय्य हो या विपरीत, उसके ये पाँच हेतु हैं।",
+        "meaning": "Whatever right or wrong action a man performs by body, mind or speech is caused by these five factors."
+      },
+      {
+        "id": 620,
+        "verse_number": 16,
+        "chapter_number": 18,
+        "text": "तत्रैवं सति कर्तारमात्मानं केवलं तु यः |\nपश्यत्यकृतबुद्धित्वान्न स पश्यति दुर्मतिः ||१८-१६||",
+        "transliteration": "tatraivaṁ sati kartāram ātmānaṁ kevalaṁ tu yaḥ\npaśhyaty akṛita-buddhitvān na sa paśhyati durmatiḥ",
+        "hindi_meaning": "इस प्रकार होने पर भी जो व्यक्ति केवल आत्मा को ही कर्ता देखता है, वह अकृतबुद्धि होने के कारण नहीं देखता, वह दुर्मति है।",
+        "meaning": "Therefore one who thinks himself the only doer, not considering the five factors, is certainly not very intelligent and cannot see things as they are."
+      },
+      {
+        "id": 621,
+        "verse_number": 17,
+        "chapter_number": 18,
+        "text": "यस्य नाहङ्कृतो भावो बुद्धिर्यस्य न लिप्यते |\nहत्वाऽपि स इमाँल्लोकान्न हन्ति न निबध्यते ||१८-१७||",
+        "transliteration": "yasya nāhaṅkṛito bhāvo buddhir yasya na lipyate\nhatvā 'pi sa imāṁl lokān na hanti na nibadhyate",
+        "hindi_meaning": "जिस व्यक्ति का अहंकार का भाव नहीं है और जिसकी बुद्धि लिप्त नहीं है, वह इन लोकों को मारकर भी नहीं मारता और न ही बँधता है।",
+        "meaning": "One who is not motivated by false ego, whose intelligence is not entangled, though he kills men in this world, does not kill. Nor is he bound by his actions."
+      },
+      {
+        "id": 622,
+        "verse_number": 18,
+        "chapter_number": 18,
+        "text": "ज्ञानं ज्ञेयं परिज्ञाता त्रिविधा कर्मचोदना |\nकरणं कर्म कर्तेति त्रिविधः कर्मसंग्रहः ||१८-१८||",
+        "transliteration": "jñānaṁ jñeyaṁ parijñātā tri-vidhā karma-chodanā\nkaraṇaṁ karma karteti tri-vidhaḥ karma-saṁgrahaḥ",
+        "hindi_meaning": "ज्ञान, ज्ञेय और परिज्ञाता - ये तीन प्रकार की कर्मचोदना हैं। करण, कर्म और कर्ता - ये तीन प्रकार के कर्मसंग्रह हैं।",
+        "meaning": "Knowledge, the object of knowledge, and the knower are the three factors that motivate action; the senses, work and the worker comprise the threefold basis of action."
+      },
+      {
+        "id": 623,
+        "verse_number": 19,
+        "chapter_number": 18,
+        "text": "ज्ञानं कर्म च कर्ता च त्रिधैव गुणभेदतः |\nप्रोच्यते गुणसंख्याने यथावच्छृणु तान्यपि ||१८-१९||",
+        "transliteration": "jñānaṁ karma cha kartā cha tridhaiva guṇa-bhedataḥ\nprochyate guṇa-saṅkhyāne yathāvac chhṛiṇu tāny api",
+        "hindi_meaning": "गुणों के भेद से ज्ञान, कर्म और कर्ता - ये तीनों ही तीन प्रकार के कहे गए हैं। गुणसंख्यान में जैसा कहा गया है, वैसा ही उन्हें सुनो।",
+        "meaning": "In terms of the three modes of material nature, there are three kinds of knowledge, action and workers. Now hear of them from Me."
+      },
+      {
+        "id": 624,
+        "verse_number": 20,
+        "chapter_number": 18,
+        "text": "सर्वभूतेषु येनैकं भावमव्ययमीक्षते |\nअविभक्तं विभक्तेषु तज्ज्ञानं विद्धि सात्त्विकम् ||१८-२०||",
+        "transliteration": "sarva-bhūteṣhu yenaikaṁ bhāvam avyayam īkṣhate\navibhaktaṁ vibhakteṣhu taj jñānaṁ viddhi sāttvikam",
+        "hindi_meaning": "जिस ज्ञान से सभी प्राणियों में एक अव्यय भाव को, विभक्तों में अविभक्त को देखा जाता है, उसे सात्त्विक ज्ञान जानो।",
+        "meaning": "That knowledge by which one undivided spiritual nature is seen in all living entities, though they are divided into innumerable forms, you should understand to be in the mode of goodness."
+      },
+      {
+        "id": 625,
+        "verse_number": 21,
+        "chapter_number": 18,
+        "text": "पृथक्त्वेन तु यज्ज्ञानं नानाभावान्पृथग्विधान् |\nवेत्ति सर्वेषु भूतेषु तज्ज्ञानं विद्धि राजसम् ||१८-२१||",
+        "transliteration": "pṛithaktvena tu yaj jñānaṁ nānā-bhāvān pṛithag-vidhān\nvetti sarveṣhu bhūteṣhu taj jñānaṁ viddhi rājasam",
+        "hindi_meaning": "जो ज्ञान पृथक्त्व से सभी प्राणियों में नाना भावों को पृथक-पृथक देखता है, उसे राजस ज्ञान जानो।",
+        "meaning": "That knowledge by which one sees different types of bodies as being different from one another, understand that knowledge to be in the mode of passion."
+      },
+      {
+        "id": 626,
+        "verse_number": 22,
+        "chapter_number": 18,
+        "text": "यत्तु कृत्स्नवदेकस्मिन्कार्ये सक्तमहैतुकम् |\nअतत्त्वार्थवदल्पं च तत्तामसमुदाहृतम् ||१८-२२||",
+        "transliteration": "yat tu kṛitsna-vad ekasmin kārye saktam ahaitukam\natattvārtha-vad alpaṁ cha tat tāmasam udāhṛitam",
+        "hindi_meaning": "जो ज्ञान एक कार्य में सब कुछ समझकर आसक्त होता है, अहैतुक, अतत्त्वार्थवत् और अल्प है, उसे तामस ज्ञान कहा गया है।",
+        "meaning": "And that knowledge by which one is attached to one kind of work as the all in all, without knowledge of the truth, and which is very meager, is said to be in the mode of darkness."
+      },
+      {
+        "id": 627,
+        "verse_number": 23,
+        "chapter_number": 18,
+        "text": "नियतं सङ्गरहितमरागद्वेषतः कृतम् |\nअफलप्रेप्सुना कर्म यत्तत्सात्त्विकमुच्यते ||१८-२३||",
+        "transliteration": "niyataṁ saṅga-rahitam arāga-dveṣhataḥ kṛitam\naphala-prepsunā karma yat tat sāttvikam uchyate",
+        "hindi_meaning": "जो कर्म नियत, संगरहित, राग-द्वेष से रहित और फल की इच्छा न रखने वाले द्वारा किया जाता है, उसे सात्त्विक कर्म कहा जाता है।",
+        "meaning": "Work done as a matter of duty, without attachment to the fruits of work and without any attraction or hatred, is said to be in the mode of goodness."
+      },
+      {
+        "id": 628,
+        "verse_number": 24,
+        "chapter_number": 18,
+        "text": "यत्तु कामेप्सुना कर्म साहङ्कारेण वा पुनः |\nक्रियते बहुलायासं तद्राजसमुदाहृतम् ||१८-२४||",
+        "transliteration": "yat tu kāmepsunā karma sāhaṅkāreṇa vā punaḥ\nkriyate bahulāyāsaṁ tad rājasam udāhṛitam",
+        "hindi_meaning": "जो कर्म कामना से युक्त, अहंकार से युक्त या बहुत परिश्रम से किया जाता है, उसे राजस कर्म कहा गया है।",
+        "meaning": "But work done with great effort by one seeking to gratify his desires, and which is enacted from a sense of false ego, is called action in the mode of passion."
+      },
+      {
+        "id": 629,
+        "verse_number": 25,
+        "chapter_number": 18,
+        "text": "अनुबन्धं क्षयं हिंसामनपेक्ष्य च पौरुषम् |\nमोहादारभ्यते कर्म यत्तत्तामसमुच्यते ||१८-२५||",
+        "transliteration": "anubandhaṁ kṣhayaṁ hiṁsām anapekṣhya cha pauruṣham\nmohād ārabhyate karma yat tat tāmasam uchyate",
+        "hindi_meaning": "जो कर्म अनुबन्ध, क्षय, हिंसा को न देखकर और पौरुष को न देखकर मोह से आरम्भ किया जाता है, उसे तामस कर्म कहा जाता है।",
+        "meaning": "That work which is begun in delusion, without consideration of future bondage, loss or injury to others, and which is done for the sake of one's own pleasure, is said to be in the mode of ignorance."
+      },
+      {
+        "id": 630,
+        "verse_number": 26,
+        "chapter_number": 18,
+        "text": "मुक्तसङ्गोऽनहंवादी धृत्युत्साहसमन्वितः |\nसिद्ध्यसिद्ध्योर्निर्विकारः कर्ता सात्त्विक उच्यते ||१८-२६||",
+        "transliteration": "mukta-saṅgo 'nahaṁvādī dhṛity-utsāha-samanvitaḥ\nsiddhy-asiddhyor nirvikāraḥ kartā sāttvika uchyate",
+        "hindi_meaning": "जो कर्ता मुक्तसंग, अनहंवादी, धृति और उत्साह से युक्त तथा सिद्धि-असिद्धि में निर्विकार है, उसे सात्त्विक कर्ता कहा जाता है।",
+        "meaning": "The worker who is free from all material attachments and false ego, who is enthusiastic and resolute, and who is indifferent to success or failure, is a worker in the mode of goodness."
+      },
+      {
+        "id": 631,
+        "verse_number": 27,
+        "chapter_number": 18,
+        "text": "रागी कर्मफलप्रेप्सुर्लुब्धो हिंसात्मकोऽशुचिः |\nहर्षशोकान्वितः कर्ता राजसः परिकीर्तितः ||१८-२७||",
+        "transliteration": "rāgī karma-phala-prepsur lubdho hiṁsātmako 'śhuchiḥ\nharṣha-śhokānvitaḥ kartā rājasaḥ parikīrtitaḥ",
+        "hindi_meaning": "जो कर्ता रागी, कर्मफल की इच्छा रखने वाला, लुब्ध, हिंसात्मक, अशुचि और हर्ष-शोक से युक्त है, उसे राजस कर्ता कहा गया है।",
+        "meaning": "The worker who is attached to work and the fruits of work, who is greedy, always envious, impure, and moved by joy and sorrow, is said to be in the mode of passion."
+      },
+      {
+        "id": 632,
+        "verse_number": 28,
+        "chapter_number": 18,
+        "text": "अयुक्तः प्राकृतः स्तब्धः शठो नैष्कृतिकोऽलसः |\nविषादी दीर्घसूत्री च कर्ता तामस उच्यते ||१८-२८||",
+        "transliteration": "ayuktaḥ prākṛitaḥ stabdhaḥ śhaṭho naiṣhkṛitiko 'lasaḥ\nviṣhādī dīrgha-sūtrī cha kartā tāmasa uchyate",
+        "hindi_meaning": "जो कर्ता अयुक्त, प्राकृत, स्तब्ध, शठ, नैष्कृतिक, अलस, विषादी और दीर्घसूत्री है, उसे तामस कर्ता कहा जाता है।",
+        "meaning": "The worker who is always engaged in work against the injunctions of the scripture, who is materialistic, obstinate, cheating and expert in insulting others, and who is lazy, always morose and procrastinating, is said to be a worker in the mode of ignorance."
+      },
+      {
+        "id": 633,
+        "verse_number": 29,
+        "chapter_number": 18,
+        "text": "बुद्धेर्भेदं धृतेश्चैव गुणतस्त्रिविधं शृणु |\nप्रोच्यमानमशेषेण पृथक्त्वेन धनञ्जय ||१८-२९||",
+        "transliteration": "buddher bhedaṁ dhṛiteśh chaiva guṇatas tri-vidhaṁ śhṛiṇu\nprochyamānam aśheṣheṇa pṛithaktvena dhanañjaya",
+        "hindi_meaning": "हे धनञ्जय! गुणों से त्रिविध बुद्धि और धृति के भेद को पृथक्त्व से अशेष रूप से सुनो, जो कहा जा रहा है।",
+        "meaning": "O winner of wealth, now please listen as I tell you in detail of the different kinds of understanding and determination, according to the three modes of nature."
+      },
+      {
+        "id": 634,
+        "verse_number": 30,
+        "chapter_number": 18,
+        "text": "प्रवृत्तिं च निवृत्तिं च कार्याकार्ये भयाभये |\nबन्धं मोक्षं च या वेत्ति बुद्धिः सा पार्थ सात्त्विकी ||१८-३०||",
+        "transliteration": "pravṛittiṁ cha nivṛittiṁ cha kāryākārye bhayābhaye\nbandhaṁ mokṣhaṁ cha yā vetti buddhiḥ sā pārtha sāttvikī",
+        "hindi_meaning": "हे पार्थ! जो बुद्धि प्रवृत्ति और निवृत्ति, कार्य और अकार्य, भय और अभय, बन्ध और मोक्ष को जानती है, वह सात्त्विक बुद्धि है।",
+        "meaning": "O son of Pritha, that understanding by which one knows what ought to be done and what ought not to be done, what is to be feared and what is not to be feared, what is binding and what is liberating, is in the mode of goodness."
+      },
+      {
+        "id": 635,
+        "verse_number": 31,
+        "chapter_number": 18,
+        "text": "यया धर्ममधर्मं च कार्यं चाकार्यमेव च |\nअयथावत्प्रजानाति बुद्धिः सा पार्थ राजसी ||१८-३१||",
+        "transliteration": "yayā dharmam adharmaṁ cha kāryaṁ chākāryam eva cha\nayathāvat prajānāti buddhiḥ sā pārtha rājasī",
+        "hindi_meaning": "हे पार्थ! जिस बुद्धि से धर्म और अधर्म, कार्य और अकार्य को अयथावत् जाना जाता है, वह राजस बुद्धि है।",
+        "meaning": "O son of Pritha, that understanding which cannot distinguish between religion and irreligion, between action that should be done and action that should not be done, is in the mode of passion."
+      },
+      {
+        "id": 636,
+        "verse_number": 32,
+        "chapter_number": 18,
+        "text": "अधर्मं धर्ममिति या मन्यते तमसावृता |\nसर्वार्थान्विपरीतांश्च बुद्धिः सा पार्थ तामसी ||१८-३२||",
+        "transliteration": "adharmaṁ dharmam iti yā manyate tamasāvṛitā\nsarvārthān viparītāṁśh cha buddhiḥ sā pārtha tāmasī",
+        "hindi_meaning": "हे पार्थ! जो बुद्धि तमस से ढकी हुई अधर्म को धर्म समझती है और सभी अर्थों को विपरीत समझती है, वह तामस बुद्धि है।",
+        "meaning": "O son of Pritha, that understanding which considers irreligion to be religion and religion to be irreligion, under the spell of illusion and darkness, and strives always in the wrong direction, is in the mode of ignorance."
+      },
+      {
+        "id": 637,
+        "verse_number": 33,
+        "chapter_number": 18,
+        "text": "धृत्या यया धारयते मनःप्राणेन्द्रियक्रियाः |\nयोगेनाव्यभिचारिण्या धृतिः सा पार्थ सात्त्विकी ||१८-३३||",
+        "transliteration": "dhṛityā yayā dhārayate manaḥ-prāṇendriya-kriyāḥ\nyogenāvyabhicāriṇyā dhṛitiḥ sā pārtha sāttvikī",
+        "hindi_meaning": "हे पार्थ! जो धृति योग से अव्यभिचारिणी होकर मन, प्राण और इन्द्रियों की क्रियाओं को धारण करती है, वह सात्त्विक धृति है।",
+        "meaning": "O son of Pritha, that determination which is unbreakable, which is sustained with steadfastness by yoga practice, and which thus controls the activities of the mind, life and senses, is determination in the mode of goodness."
+      },
+      {
+        "id": 638,
+        "verse_number": 34,
+        "chapter_number": 18,
+        "text": "यया तु धर्मकामार्थान्धृत्या धारयतेऽर्जुन |\nप्रसङ्गेन फलाकाङ्क्षी धृतिः सा पार्थ राजसी ||१८-३४||",
+        "transliteration": "yayā tu dharma-kāmārthān dhṛityā dhārayate 'rjuna\nprasaṅgena phalākāṅkṣhī dhṛitiḥ sā pārtha rājasī",
+        "hindi_meaning": "हे अर्जुन! हे पार्थ! जो धृति प्रसङ्ग से फल की आकाङ्क्षा रखकर धर्म, काम और अर्थ को धारण करती है, वह राजस धृति है।",
+        "meaning": "But that determination by which one holds fast to fruitive results in religion, economic development and sense gratification is of the nature of passion, O Arjuna."
+      },
+      {
+        "id": 639,
+        "verse_number": 35,
+        "chapter_number": 18,
+        "text": "यया स्वप्नं भयं शोकं विषादं मदमेव च |\nन विमुञ्चति दुर्मेधा धृतिः सा पार्थ तामसी ||१८-३५||",
+        "transliteration": "yayā svapnaṁ bhayaṁ śhokaṁ viṣhādaṁ madam eva cha\nna vimuñchati durmedhā dhṛitiḥ sā pārtha tāmasī",
+        "hindi_meaning": "हे पार्थ! जो धृति दुर्मेधा होकर स्वप्न, भय, शोक, विषाद और मद को नहीं छोड़ती, वह तामस धृति है।",
+        "meaning": "And that determination which cannot go beyond dreaming, fearfulness, lamentation, moroseness and illusion—such unintelligent determination, O son of Pritha, is in the mode of darkness."
+      },
+      {
+        "id": 640,
+        "verse_number": 36,
+        "chapter_number": 18,
+        "text": "सुखं त्विदानीं त्रिविधं शृणु मे भरतर्षभ |\nअभ्यासाद्रमते यत्र दुःखान्तं च निगच्छति ||१८-३६||",
+        "transliteration": "sukhaṁ tv idānīṁ tri-vidhaṁ śhṛiṇu me bharatarṣhabha\nabhyāsād ramate yatra duḥkhāntaṁ cha nigachchhati",
+        "hindi_meaning": "हे भरतर्षभ! अब मुझसे त्रिविध सुख को सुनो, जिसमें अभ्यास से रमण होता है और दुःख का अंत हो जाता है।",
+        "meaning": "O best of the Bharatas, now please hear from Me about the three kinds of happiness by which the conditioned soul enjoys, and by which he sometimes comes to the end of all distress."
+      },
+      {
+        "id": 641,
+        "verse_number": 37,
+        "chapter_number": 18,
+        "text": "यत्तदग्रे विषमिव परिणामेऽमृतोपमम् |\nतत्सुखं सात्त्विकं प्रोक्तमात्मबुद्धिप्रसादजम् ||१८-३७||",
+        "transliteration": "yat tad agre viṣham iva pariṇāme 'mṛitopamam\ntat sukhaṁ sāttvikaṁ proktam ātma-buddhi-prasādajam",
+        "hindi_meaning": "जो सुख आदि में विष के समान लगता है, लेकिन परिणाम में अमृत के समान होता है, वह आत्मबुद्धि के प्रसाद से उत्पन्न सात्त्विक सुख कहा जाता है।",
+        "meaning": "That which in the beginning may be just like poison but at the end is just like nectar and which awakens one to self-realization is said to be happiness in the mode of goodness."
+      },
+      {
+        "id": 642,
+        "verse_number": 38,
+        "chapter_number": 18,
+        "text": "विषयेन्द्रियसंयोगाद्यत्तदग्रेऽमृतोपमम् |\nपरिणामे विषमिव तत्सुखं राजसं स्मृतम् ||१८-३८||",
+        "transliteration": "viṣhayendriya-saṁyogād yat tad agre 'mṛitopamam\npariṇāme viṣham iva tat sukhaṁ rājasaṁ smṛitam",
+        "hindi_meaning": "जो सुख विषय और इन्द्रियों के संयोग से आदि में अमृत के समान लगता है, लेकिन परिणाम में विष के समान होता है, वह राजस सुख कहा जाता है।",
+        "meaning": "That happiness which is derived from contact of the senses with their objects and which appears like nectar at first but poison at the end is said to be of the nature of passion."
+      },
+      {
+        "id": 643,
+        "verse_number": 39,
+        "chapter_number": 18,
+        "text": "यदग्रे चानुबन्धे च सुखं मोहनमात्मनः |\nनिद्रालस्यप्रमादोत्थं तत्तामसमुदाहृतम् ||१८-३९||",
+        "transliteration": "yad agre chānubandhe cha sukhaṁ mohanam ātmanaḥ\nnidrālasya-pramādotthaṁ tat tāmasam udāhṛitam",
+        "hindi_meaning": "जो सुख आदि और अनुबन्ध में आत्मा को मोहित करने वाला है और निद्रा, आलस्य और प्रमाद से उत्पन्न होता है, उसे तामस सुख कहा गया है।",
+        "meaning": "And that happiness which is blind to self-realization, which is delusion from beginning to end and which arises from sleep, laziness and illusion, is said to be of the nature of ignorance."
+      },
+      {
+        "id": 644,
+        "verse_number": 40,
+        "chapter_number": 18,
+        "text": "न तदस्ति पृथिव्यां वा दिवि देवेषु वा पुनः |\nसत्त्वं प्रकृतिजैर्मुक्तं यदेभिः स्यात्त्रिभिर्गुणैः ||१८-४०||",
+        "transliteration": "na tad asti pṛithivyāṁ vā divi deveṣhu vā punaḥ\nsattvaṁ prakṛiti-jair muktaṁ yad ebhiḥ syāt tribhir guṇaiḥ",
+        "hindi_meaning": "पृथिवी में या दिवि में या देवों में भी ऐसा कोई सत्त्व नहीं है, जो प्रकृति से उत्पन्न इन तीन गुणों से मुक्त हो।",
+        "meaning": "There is no being existing, either here or among the demigods in the higher planetary systems, which is free from these three modes born of material nature."
+      },
+      {
+        "id": 645,
+        "verse_number": 41,
+        "chapter_number": 18,
+        "text": "ब्राह्मणक्षत्रियविशां शूद्राणां च परन्तप |\nकर्माणि प्रविभक्तानि स्वभावप्रभवैर्गुणैः ||१८-४१||",
+        "transliteration": "brāhmaṇa-kṣhatriya-viśhāṁ śhūdrāṇāṁ cha parantapa\nkarmāṇi pravibhaktāni svabhāva-prabhavair guṇaiḥ",
+        "hindi_meaning": "हे परंतप! ब्राह्मण, क्षत्रिय, वैश्य और शूद्रों के कर्म स्वभाव से उत्पन्न गुणों से प्रविभक्त हैं।",
+        "meaning": "Brāhmaṇas, kṣatriyas, vaiśyas and śūdras are distinguished by the qualities born of their own natures in accordance with the material modes, O chastiser of the enemy."
+      },
+      {
+        "id": 646,
+        "verse_number": 42,
+        "chapter_number": 18,
+        "text": "शमो दमस्तपः शौचं क्षान्तिरार्जवमेव च |\nज्ञानं विज्ञानमास्तिक्यं ब्रह्मकर्म स्वभावजम् ||१८-४२||",
+        "transliteration": "śhamo damas tapaḥ śhauchaṁ kṣhāntir ārjavam eva cha\njñānaṁ vijñānam āstikyaṁ brahma-karma svabhāva-jam",
+        "hindi_meaning": "शम, दम, तप, शौच, क्षान्ति, आर्जव, ज्ञान, विज्ञान और आस्तिक्य - ये ब्रह्मकर्म स्वभाव से उत्पन्न हैं।",
+        "meaning": "Peacefulness, self-control, austerity, purity, tolerance, honesty, knowledge, wisdom and religiousness—these are the natural qualities by which the brāhmaṇas work."
+      },
+      {
+        "id": 647,
+        "verse_number": 43,
+        "chapter_number": 18,
+        "text": "शौर्यं तेजो धृतिर्दाक्ष्यं युद्धे चाप्यपलायनम् |\nदानमीश्वरभावश्च क्षात्रं कर्म स्वभावजम् ||१८-४३||",
+        "transliteration": "śhauryaṁ tejo dhṛitir dākṣhyaṁ yuddhe chāpy apalāyanam\ndānam īśhvara-bhāvaśh cha kṣhātraṁ karma svabhāva-jam",
+        "hindi_meaning": "शौर्य, तेज, धृति, दाक्ष्य, युद्ध में अपलायन न करना, दान और ईश्वरभाव - ये क्षात्र कर्म स्वभाव से उत्पन्न हैं।",
+        "meaning": "Heroism, power, determination, resourcefulness, courage in battle, generosity and leadership are the natural qualities of work for the kṣatriyas."
+      },
+      {
+        "id": 648,
+        "verse_number": 44,
+        "chapter_number": 18,
+        "text": "कृषिगौरक्ष्यवाणिज्यं वैश्यकर्म स्वभावजम् |\nपरिचर्यात्मकं कर्म शूद्रस्यापि स्वभावजम् ||१८-४४||",
+        "transliteration": "kṛiṣhi-gaurakṣhya-vāṇijyaṁ vaiśya-karma svabhāva-jam\nparicharyātmakaṁ karma śhūdrasyāpi svabhāva-jam",
+        "hindi_meaning": "कृषि, गौरक्ष्य और वाणिज्य - ये वैश्य कर्म स्वभाव से उत्पन्न हैं। परिचर्यात्मक कर्म शूद्र का भी स्वभावज है।",
+        "meaning": "Farming, cow protection and business are the natural work for the vaiśyas, and for the śūdras there is labor and service to others."
+      },
+      {
+        "id": 649,
+        "verse_number": 45,
+        "chapter_number": 18,
+        "text": "स्वे स्वे कर्मण्यभिरतः संसिद्धिं लभते नरः |\nस्वकर्मनिरतः सिद्धिं यथा विन्दति तच्छृणु ||१८-४५||",
+        "transliteration": "sve sve karmaṇy abhirataḥ saṁsiddhiṁ labhate naraḥ\nsvakarma-nirataḥ siddhiṁ yathā vindati tac chhṛiṇu",
+        "hindi_meaning": "मनुष्य अपने-अपने कर्म में अभिरत होकर संसिद्धि प्राप्त करता है। स्वकर्म में निरत होकर जैसे सिद्धि प्राप्त करता है, उसे सुनो।",
+        "meaning": "By following his qualities of work, every man can become perfect. Now please hear from Me how this can be done."
+      },
+      {
+        "id": 650,
+        "verse_number": 46,
+        "chapter_number": 18,
+        "text": "यतः प्रवृत्तिर्भूतानां येन सर्वमिदं ततम् |\nस्वकर्मणा तमभ्यर्च्य सिद्धिं विन्दति मानवः ||१८-४६||",
+        "transliteration": "yataḥ pravṛittir bhūtānāṁ yena sarvam idaṁ tatam\nsvakarmaṇā tam abhyarchya siddhiṁ vindati mānavaḥ",
+        "hindi_meaning": "जिससे प्राणियों की प्रवृत्ति होती है और जिससे यह सब कुछ व्याप्त है, उसको अपने कर्म से अर्चन करके मानव सिद्धि प्राप्त करता है।",
+        "meaning": "By worship of the Lord, who is the source of all beings and who is all-pervading, a man can attain perfection through performing his own work."
+      },
+      {
+        "id": 651,
+        "verse_number": 47,
+        "chapter_number": 18,
+        "text": "श्रेयान्स्वधर्मो विगुणः परधर्मात्स्वनुष्ठितात् |\nस्वधर्मे निधनं श्रेयः परधर्मो भयावहः ||१८-४७||",
+        "transliteration": "śhreyān sva-dharmo viguṇaḥ para-dharmāt sv-anuṣhṭhitāt\nsva-dharme nidhanaṁ śhreyaḥ para-dharmo bhayāvahaḥ",
+        "hindi_meaning": "अच्छी तरह से अनुष्ठित परधर्म से अपना विगुण स्वधर्म श्रेयस्कर है। स्वधर्म में निधन श्रेयस्कर है, परधर्म भयावह है।",
+        "meaning": "It is better to engage in one's own occupation, even though one may perform it imperfectly, than to accept another's occupation and perform it perfectly. Duties prescribed according to one's nature are never affected by sinful reactions."
+      },
+      {
+        "id": 652,
+        "verse_number": 48,
+        "chapter_number": 18,
+        "text": "सहजं कर्म कौन्तेय सदोषमपि न त्यजेत् |\nसर्वारम्भा हि दोषेण धूमेनाग्निरिवावृताः ||१८-४८||",
+        "transliteration": "sahajaṁ karma kaunteya sa-doṣham api na tyajet\nsarvārambhā hi doṣheṇa dhūmenāgnir ivāvṛitāḥ",
+        "hindi_meaning": "हे कौन्तेय! सहज कर्म को सदोष होने पर भी नहीं त्यागना चाहिए। सभी आरम्भ दोष से ढके होते हैं, जैसे धुँआ से अग्नि ढकी होती है।",
+        "meaning": "Every endeavor is covered by some fault, just as fire is covered by smoke. Therefore one should not give up the work born of his nature, O son of Kuntī, even if such work is full of fault."
+      },
+      {
+        "id": 653,
+        "verse_number": 49,
+        "chapter_number": 18,
+        "text": "असक्तबुद्धिः सर्वत्र जितात्मा विगतस्पृहः |\nनैष्कर्म्यसिद्धिं परमां संन्यासेनाधिगच्छति ||१८-४९||",
+        "transliteration": "asakta-buddhiḥ sarvatra jitātmā vigata-spṛihaḥ\nnaiṣhkarmya-siddhiṁ paramāṁ sannyāsenādhigachchhati",
+        "hindi_meaning": "जो व्यक्ति असक्तबुद्धि, सर्वत्र जितात्मा और विगतस्पृह है, वह संन्यास से परम नैष्कर्म्यसिद्धि प्राप्त करता है।",
+        "meaning": "One who is self-controlled and unattached, who disregards all material enjoyments, can obtain, by practice of renunciation, the highest perfect stage of freedom from reaction."
+      },
+      {
+        "id": 654,
+        "verse_number": 50,
+        "chapter_number": 18,
+        "text": "सिद्धिं प्राप्तो यथा ब्रह्म तथाप्नोति निबोध मे |\nसमासेनैव कौन्तेय निष्ठा ज्ञानस्य या परा ||१८-५०||",
+        "transliteration": "siddhiṁ prāpto yathā brahma tathāpnoti nibodha me\nsamāsenaiva kaunteya niṣhṭhā jñānasya yā parā",
+        "hindi_meaning": "हे कौन्तेय! जैसे ब्रह्म को प्राप्त होता है, वैसे सिद्धि प्राप्त करके मुझसे सुनो। समास से ही ज्ञान की जो परा निष्ठा है, उसे जानो।",
+        "meaning": "O son of Kuntī, learn from Me how one who has achieved this perfection can attain to the supreme state of Brahman, the stage of highest knowledge, by acting in the way I shall now summarize."
+      },
+      {
+        "id": 655,
+        "verse_number": 51,
+        "chapter_number": 18,
+        "text": "बुद्ध्या विशुद्धया युक्तो धृत्यात्मानं नियम्य च |\nशब्दादीन्विषयांस्त्यक्त्वा रागद्वेषौ व्युदस्य च ||१८-५१||",
+        "transliteration": "buddhyā viśhuddhayā yukto dhṛityātmānaṁ niyamya cha\nśhabdādīn viṣhayāns tyaktvā rāga-dveṣhau vyudasya cha",
+        "hindi_meaning": "विशुद्ध बुद्धि से युक्त होकर, धृति से आत्मा को नियमित करके, शब्द आदि विषयों को त्यागकर और राग-द्वेष को दूर करके।",
+        "meaning": "Being purified by his intelligence and controlling the mind with determination, giving up the objects of sense gratification, being freed from attachment and hatred."
+      },
+      {
+        "id": 656,
+        "verse_number": 52,
+        "chapter_number": 18,
+        "text": "विविक्तसेवी लघ्वाशी यतवाक्कायमानसः |\nध्यानयोगपरो नित्यं वैराग्यं समुपाश्रितः ||१८-५२||",
+        "transliteration": "vivikta-sevī laghv-āśhī yata-vāk-kāya-mānasaḥ\ndhyāna-yoga-paro nityaṁ vairāgyaṁ samupāśhritaḥ",
+        "hindi_meaning": "विविक्त सेवी, लघ्वाशी, यतवाक्कायमानस, ध्यानयोग में परायण और नित्य वैराग्य का आश्रय लेने वाला।",
+        "meaning": "One who lives in a secluded place, who eats little, and who controls his body, mind and power of speech, who is always in trance and who is detached, free from false ego, false strength, false pride, lust, anger, and acceptance of material things, free from false proprietorship, and peaceful—such a person is certainly elevated to the position of self-realization."
+      },
+      {
+        "id": 657,
+        "verse_number": 53,
+        "chapter_number": 18,
+        "text": "अहङ्कारं बलं दर्पं कामं क्रोधं परिग्रहम् |\nविमुच्य निर्ममः शान्तो ब्रह्मभूयाय कल्पते ||१८-५३||",
+        "transliteration": "ahaṅkāraṁ balaṁ darpaṁ kāmaṁ krodhaṁ parigraham\nvimucya nirmamaḥ śhānto brahma-bhūyāya kalpate",
+        "hindi_meaning": "अहंकार, बल, दर्प, काम, क्रोध और परिग्रह को त्यागकर, निर्मम और शान्त होकर ब्रह्मभूय के योग्य होता है।",
+        "meaning": "One who is thus transcendentally situated at once realizes the Supreme Brahman and becomes fully joyful. He never laments or desires to have anything. He is equally disposed toward every living entity. In that state he attains pure devotional service unto Me."
+      },
+      {
+        "id": 658,
+        "verse_number": 54,
+        "chapter_number": 18,
+        "text": "ब्रह्मभूतः प्रसन्नात्मा न शोचति न काङ्क्षति |\nसमः सर्वेषु भूतेषु मद्भक्तिं लभते पराम् ||१८-५४||",
+        "transliteration": "brahma-bhūtaḥ prasannātmā na śhochati na kāṅkṣhati\nsamaḥ sarveṣhu bhūteṣhu mad-bhaktiṁ labhate parām",
+        "hindi_meaning": "ब्रह्मभूत होकर प्रसन्नात्मा, न शोचता और न काङ्क्षता, सभी प्राणियों में सम और मेरी परा भक्ति को प्राप्त करता है।",
+        "meaning": "One who is thus transcendentally situated at once realizes the Supreme Brahman and becomes fully joyful. He never laments or desires to have anything. He is equally disposed toward every living entity. In that state he attains pure devotional service unto Me."
+      },
+      {
+        "id": 659,
+        "verse_number": 55,
+        "chapter_number": 18,
+        "text": "भक्त्या मामभिजानाति यावान्यश्चास्मि तत्त्वतः |\nततो मां तत्त्वतो ज्ञात्वा विशते तदनन्तरम् ||१८-५५||",
+        "transliteration": "bhaktyā mām abhijānāti yāvān yaśh chāsmi tattvataḥ\ntato māṁ tattvato jñātvā viśhate tad-anantaram",
+        "hindi_meaning": "भक्ति से मुझे तत्त्वतः जानता है कि मैं कौन हूँ और कितना हूँ। तब मुझे तत्त्वतः जानकर तुरंत मुझमें प्रवेश करता है।",
+        "meaning": "One can understand Me as I am, as the Supreme Personality of Godhead, only by devotional service. And when one is in full consciousness of Me by such devotion, he can enter into the kingdom of God."
+      },
+      {
+        "id": 660,
+        "verse_number": 56,
+        "chapter_number": 18,
+        "text": "सर्वकर्माण्यपि सदा कुर्वाणो मद्व्यपाश्रयः |\nमत्प्रसादादवाप्नोति शाश्वतं पदमव्ययम् ||१८-५६||",
+        "transliteration": "sarva-karmāṇy api sadā kurvāṇo mad-vyapāśhrayaḥ\nmat-prasādād avāpnoti śhāśhvataṁ padam avyayam",
+        "hindi_meaning": "सभी कर्मों को सदा करते हुए भी मेरे आश्रय से मेरी प्रसाद से शाश्वत और अव्यय पद को प्राप्त करता है।",
+        "meaning": "Though engaged in all kinds of activities, My pure devotee, under My protection, reaches the eternal and imperishable abode by My grace."
+      },
+      {
+        "id": 661,
+        "verse_number": 57,
+        "chapter_number": 18,
+        "text": "चेतसा सर्वकर्माणि मयि संन्यस्य मत्परः |\nबुद्धियोगमुपाश्रित्य मच्चित्तः सततं भव ||१८-५७||",
+        "transliteration": "chetasā sarva-karmāṇi mayi sannyasya mat-paraḥ\nbuddhi-yogam upāśhritya mac-cittaḥ satataṁ bhava",
+        "hindi_meaning": "चेतसा सभी कर्मों को मुझमें संन्यास करके मत्पर होकर, बुद्धियोग का आश्रय लेकर सतत मेरे चित्त में रहो।",
+        "meaning": "In all activities just depend upon Me and work always under My protection. In such devotional service, be fully conscious of Me."
+      },
+      {
+        "id": 662,
+        "verse_number": 58,
+        "chapter_number": 18,
+        "text": "मच्चित्तः सर्वदुर्गाणि मत्प्रसादात्तरिष्यसि |\nअथ चेत्त्वमहङ्कारान्न श्रोष्यसि विनङ्क्ष्यसि ||१८-५८||",
+        "transliteration": "mac-cittaḥ sarva-durgāṇi mat-prasādāt tariṣhyasi\natha chet tvam ahaṅkārān na śhroṣhyasi vinaṅkṣhyasi",
+        "hindi_meaning": "मेरे चित्त से सभी दुर्गों को मेरी प्रसाद से तर जाओगे। अगर तुम अहंकार से नहीं सुनोगे, तो विनष्ट हो जाओगे।",
+        "meaning": "If you become conscious of Me, you will pass over all the obstacles of conditional life by My grace. If, however, you do not work in such consciousness but act through false ego, not hearing Me, you will be lost."
+      },
+      {
+        "id": 663,
+        "verse_number": 59,
+        "chapter_number": 18,
+        "text": "यदहङ्कारमाश्रित्य न योत्स्य इति मन्यसे |\nमिथ्यैष व्यवसायस्ते प्रकृतिस्त्वां नियोक्ष्यति ||१८-५९||",
+        "transliteration": "yad ahaṅkāram āśhritya na yotsya iti manyase\nmithyaiṣha vyavasāyas te prakṛitis tvāṁ niyokṣhyati",
+        "hindi_meaning": "यदि तुम अहंकार का आश्रय लेकर 'मैं युद्ध नहीं करूँगा' ऐसा मानते हो, तो यह तुम्हारा मिथ्या व्यवसाय है। प्रकृति तुम्हें नियोजित करेगी।",
+        "meaning": "If you do not act according to My direction and do not fight, then you will be falsely directed. By your nature, you will have to be engaged in warfare."
+      },
+      {
+        "id": 664,
+        "verse_number": 60,
+        "chapter_number": 18,
+        "text": "स्वभावजेन कौन्तेय निबद्धः स्वेन कर्मणा |\nकर्तुं नेच्छसि यन्मोहात्करिष्यस्यवशोऽपि तत् ||१८-६०||",
+        "transliteration": "svabhāva-jena kaunteya nibaddhaḥ svena karmaṇā\nkartuṁ nechchhasi yan mohāt kariṣhyasy avaśho 'pi tat",
+        "hindi_meaning": "हे कौन्तेय! स्वभावज कर्म से बँधा हुआ, जो कर्म तुम मोह से नहीं करना चाहते, वह तुम अवश होकर भी करोगे।",
+        "meaning": "O son of Kuntī, being bound by your own fruitive activities, which are born of your own nature, you will have to do that which you do not wish to do out of delusion."
+      },
+      {
+        "id": 665,
+        "verse_number": 61,
+        "chapter_number": 18,
+        "text": "ईश्वरः सर्वभूतानां हृद्देशेऽर्जुन तिष्ठति |\nभ्रामयन्सर्वभूतानि यन्त्रारूढानि मायया ||१८-६१||",
+        "transliteration": "īśhvaraḥ sarva-bhūtānāṁ hṛid-deśhe 'rjuna tiṣhṭhati\nbhrāmayan sarva-bhūtāni yantrārūḍhāni māyayā",
+        "hindi_meaning": "हे अर्जुन! ईश्वर सभी प्राणियों के हृदय में स्थित है और माया से यन्त्रारूढ़ सभी प्राणियों को भ्रामित करता है।",
+        "meaning": "The Supreme Lord is situated in everyone's heart, O Arjuna, and is directing the wanderings of all living entities, who are seated as on a machine, made of the material energy."
+      },
+      {
+        "id": 666,
+        "verse_number": 62,
+        "chapter_number": 18,
+        "text": "तमेव शरणं गच्छ सर्वभावेन भारत |\nतत्प्रसादात्परां शान्तिं स्थानं प्राप्स्यसि शाश्वतम् ||१८-६२||",
+        "transliteration": "tam eva śharaṇaṁ gachchha sarva-bhāvena bhārata\ntat-prasādāt parāṁ śhāntiṁ sthānaṁ prāpsyasi śhāśhvatam",
+        "hindi_meaning": "हे भारत! सर्वभाव से उसी की शरण में जाओ। उसकी प्रसाद से परा शान्ति और शाश्वत स्थान को प्राप्त करोगे।",
+        "meaning": "O scion of Bharata, surrender unto Him utterly. By His grace you will attain transcendental peace and the supreme and eternal abode."
+      },
+      {
+        "id": 667,
+        "verse_number": 63,
+        "chapter_number": 18,
+        "text": "इति ते ज्ञानमाख्यातं गुह्याद्गुह्यतरं मया |\nविमृश्यैतदशेषेण यथेच्छसि तथा कुरु ||१८-६३||",
+        "transliteration": "iti te jñānam ākhyātaṁ guhyād guhyataraṁ mayā\nvimṛiśhyaitad aśheṣheṇa yathechchhasi tathā kuru",
+        "hindi_meaning": "इस प्रकार मैंने तुम्हें गुह्य से भी गुह्यतर ज्ञान कहा है। इस पर अशेष रूप से विमृश्य करके जैसा चाहो, वैसा करो।",
+        "meaning": "Thus I have explained to you knowledge still more confidential. Deliberate on this fully, and then do what you wish to do."
+      },
+      {
+        "id": 668,
+        "verse_number": 64,
+        "chapter_number": 18,
+        "text": "सर्वगुह्यतमं भूयः शृणु मे परमं वचः |\nइष्टोऽसि मे दृढमिति ततो वक्ष्यामि ते हितम् ||१८-६४||",
+        "transliteration": "sarva-guhyatamaṁ bhūyaḥ śhṛiṇu me paramaṁ vachaḥ\niṣhṭo 'si me dṛiḍham iti tato vakṣhyāmi te hitam",
+        "hindi_meaning": "सबसे गुह्यतम को फिर से मेरे परम वचन को सुनो। तुम मेरे प्रिय हो, दृढ़ रूप से, इसलिए मैं तुम्हारे हित के लिए कहूँगा।",
+        "meaning": "Because you are My very dear friend, I am speaking to you My supreme instruction, the most confidential knowledge of all. Hear this from Me, for it is for your benefit."
+      },
+      {
+        "id": 669,
+        "verse_number": 65,
+        "chapter_number": 18,
+        "text": "मन्मना भव मद्भक्तो मद्याजी मां नमस्कुरु |\nमामेवैष्यसि युक्त्वैवमात्मानं मत्परायणः ||१८-६५||",
+        "transliteration": "man-manā bhava mad-bhakto mad-yājī māṁ namaskuru\nmām evaiṣhyasi yuktvai vam ātmānaṁ mat-parāyaṇaḥ",
+        "hindi_meaning": "मेरे मन वाला हो, मेरा भक्त हो, मेरा याजी हो और मुझे नमस्कार करो। इस प्रकार मुझमें युक्त होकर, मत्परायण होकर तुम मुझे ही प्राप्त करोगे।",
+        "meaning": "Always think of Me, become My devotee, worship Me and offer your homage unto Me. Thus you will come to Me without fail. I promise you this because you are My very dear friend."
+      },
+      {
+        "id": 670,
+        "verse_number": 66,
+        "chapter_number": 18,
+        "text": "सर्वधर्मान्परित्यज्य मामेकं शरणं व्रज |\nअहं त्वां सर्वपापेभ्यो मोक्षयिष्यामि मा शुचः ||१८-६६||",
+        "transliteration": "sarva-dharmān parityajya mām ekaṁ śharaṇaṁ vraja\nahaṁ tvāṁ sarva-pāpebhyo mokṣhayiṣhyāmi mā śhuchaḥ",
+        "hindi_meaning": "सभी धर्मों को त्यागकर मेरी एक शरण में आ जाओ। मैं तुम्हें सभी पापों से मोक्ष दूँगा, शोक मत करो।",
+        "meaning": "Abandon all varieties of religion and just surrender unto Me. I shall deliver you from all sinful reactions. Do not fear."
+      },
+      {
+        "id": 671,
+        "verse_number": 67,
+        "chapter_number": 18,
+        "text": "इदं ते नातपस्काय नाभक्ताय कदाचन |\nन चाशुश्रूषवे वाच्यं न च मां योऽभ्यसूयति ||१८-६७||",
+        "transliteration": "idam te nātapaskāya nābhaktāya kadāchana\nna chāśhuśhrūṣhave vāchyaṁ na cha māṁ yo 'bhyasūyati",
+        "hindi_meaning": "यह तुम्हें तपस्वी को नहीं, न भक्त को, न कभी अशुश्रूषु को कहना है और न ही मुझसे द्वेष करने वाले को।",
+        "meaning": "This confidential knowledge may never be explained to those who are not austere, or devoted, or engaged in devotional service, nor to one who is envious of Me."
+      },
+      {
+        "id": 672,
+        "verse_number": 68,
+        "chapter_number": 18,
+        "text": "य इदं परमं गुह्यं मद्भक्तेष्वभिधास्यति |\nभक्तिं मयि परां कृत्वा मामेवैष्यत्यसंशयः ||१८-६८||",
+        "transliteration": "ya idaṁ paramaṁ guhyaṁ mad-bhakteṣhv abhidhāsyati\nbhaktiṁ mayi parāṁ kṛitvā mām evaiṣhyaty asaṁśhayaḥ",
+        "hindi_meaning": "जो यह परम गुह्य मेरे भक्तों में कहेगा, वह मुझमें परा भक्ति करके निश्चय ही मुझे प्राप्त करेगा।",
+        "meaning": "For one who explains this supreme secret to the devotees, pure devotional service is guaranteed, and at the end he will come back to Me."
+      },
+      {
+        "id": 673,
+        "verse_number": 69,
+        "chapter_number": 18,
+        "text": "न च तस्मान्मनुष्येषु कश्चिन्मे प्रियकृत्तमः |\nभविता न च मे तस्मादन्यः प्रियतरो भुवि ||१८-६९||",
+        "transliteration": "na cha tasmān manuṣhyeṣhu kaśhchin me priya-kṛittamaḥ\nbhavitā na cha me tasmād anyaḥ priyataro bhuvi",
+        "hindi_meaning": "मनुष्यों में उससे अधिक मेरा प्रियकृत कोई नहीं होगा और पृथिवी पर उससे अधिक प्रियतर कोई नहीं होगा।",
+        "meaning": "There is no servant in this world more dear to Me than he, nor will there ever be one more dear."
+      },
+      {
+        "id": 674,
+        "verse_number": 70,
+        "chapter_number": 18,
+        "text": "अध्येष्यते च य इमं धर्म्यं संवादमावयोः |\nज्ञानयज्ञेन तेनाहमिष्टः स्यामिति मे मतिः ||१८-७०||",
+        "transliteration": "adhyeshye cha ya imaṁ dharmyaṁ saṁvādam āvayoḥ\njñāna-yajñena tenāham iṣhṭaḥ syām iti me matiḥ",
+        "hindi_meaning": "जो हम दोनों के इस धर्म्य संवाद का अध्ययन करेगा, उसके ज्ञानयज्ञ से मैं इष्ट होऊँगा, यह मेरा मत है।",
+        "meaning": "And I declare that one who studies this sacred conversation of ours worships Me by his intelligence."
+      },
+      {
+        "id": 675,
+        "verse_number": 71,
+        "chapter_number": 18,
+        "text": "श्रद्धावाननसूयश्च शृणुयादपि यो नरः |\nसोऽपि मुक्तः शुभाँल्लोकान्प्राप्नुयात्पुण्यकर्मणाम् ||१८-७१||",
+        "transliteration": "śhraddhāvān anasūyaśh cha śhṛiṇuyād api yo naraḥ\nso 'pi muktaḥ śhubhāll lokān prāpnuyāt puṇya-karmaṇām",
+        "hindi_meaning": "जो श्रद्धावान और अनसूय पुरुष इसे सुनेगा, वह भी मुक्त होकर पुण्यकर्मों के शुभ लोकों को प्राप्त करेगा।",
+        "meaning": "And one who listens with faith and without envy becomes free from sinful reactions and attains to the auspicious planets where the pious dwell."
+      },
+      {
+        "id": 676,
+        "verse_number": 72,
+        "chapter_number": 18,
+        "text": "कच्चिदेतच्छ्रुतं पार्थ त्वयैकाग्रेण चेतसा |\nकच्चिदज्ञानसंमोहः प्रनष्टस्ते धनञ्जय ||१८-७२||",
+        "transliteration": "kacchid etac chhrutaṁ pārtha tvayaikāgreṇa chetasā\nkacchid ajñāna-saṁmohaḥ pranaṣhṭas te dhanañjaya",
+        "hindi_meaning": "हे पार्थ! हे धनञ्जय! क्या यह तुमने एकाग्र चित्त से सुना है? क्या तुम्हारा अज्ञानसंमोह नष्ट हो गया है?",
+        "meaning": "O son of Pritha, O conqueror of wealth, have you heard this with an attentive mind? And are your ignorance and illusions now dispelled?"
+      },
+      {
+        "id": 677,
+        "verse_number": 73,
+        "chapter_number": 18,
+        "text": "अर्जुन उवाच |\nनष्टो मोहः स्मृतिर्लब्धा त्वत्प्रसादान्मयाच्युत |\nस्थितोऽस्मि गतसन्देहः करिष्ये वचनं तव ||१८-७३||",
+        "transliteration": "arjuna uvācha\nnaṣhṭo mohaḥ smṛitir labdhā tvat-prasādān mayāchyuta\nsthito 'smi gata-sandehaḥ kariṣhye vacanaṁ tava",
+        "hindi_meaning": "अर्जुन ने कहा: हे अच्युत! आपकी प्रसाद से मेरा मोह नष्ट हो गया है और स्मृति प्राप्त हुई है। मैं स्थित हूँ, गतसन्देह हूँ और आपके वचन का पालन करूँगा।",
+        "meaning": "Arjuna said: My dear Kṛṣṇa, O infallible one, my illusion is now gone. I have regained my memory by Your mercy. I am now firm and free from doubt and am prepared to act according to Your instructions."
+      },
+      {
+        "id": 678,
+        "verse_number": 74,
+        "chapter_number": 18,
+        "text": "संजय उवाच |\nइत्यहं वासुदेवस्य पार्थस्य च महात्मनः |\nसंवादमिममश्रौषं अद्भुतं रोमहर्षणम् ||१८-७४||",
+        "transliteration": "sañjaya uvācha\nty ahaṁ vāsudevasya pārthasya cha mahātmanaḥ\nsaṁvādam imam aśhrauṣhaṁ adbhutaṁ roma-harṣhaṇam",
+        "hindi_meaning": "संजय ने कहा: इस प्रकार मैंने वासुदेव और महात्मा पार्थ के इस अद्भुत और रोमहर्षण संवाद को सुना।",
+        "meaning": "Sañjaya said: Thus have I heard the conversation between two great souls, Kṛṣṇa and Arjuna. And so wonderful is that message that my hair is standing on end."
+      },
+      {
+        "id": 679,
+        "verse_number": 75,
+        "chapter_number": 18,
+        "text": "व्यासप्रसादाच्छ्रुतवानेतद्गुह्यमहं परम् |\nयोगं योगेश्वरात्कृष्णात्साक्षात्कथयतः स्वयम् ||१८-७५||",
+        "transliteration": "vyāsa-prasādāch chhrutavān etad guhyam ahaṁ param\nyogaṁ yogaśhvarāt kṛiṣhṇāt sākṣhāt kathayataḥ svayam",
+        "hindi_meaning": "व्यास की प्रसाद से मैंने योगेश्वर कृष्ण से साक्षात् कहते हुए इस परम गुह्य योग को सुना।",
+        "meaning": "By the mercy of Vyāsa, I have heard these most confidential talks directly from the master of all mysticism, Kṛṣṇa, who was speaking personally to Arjuna."
+      },
+      {
+        "id": 680,
+        "verse_number": 76,
+        "chapter_number": 18,
+        "text": "राजन्संस्मृत्य संस्मृत्य संवादमिममद्भुतम् |\nकेशवार्जुनयोः पुण्यं हृष्यामि च मुहुर्मुहुः ||१८-७६||",
+        "transliteration": "rājan saṁsmṛitya saṁsmṛitya saṁvādam imam adbhutam\nkeśhavārjunayoḥ puṇyaṁ hṛiṣhyāmi cha muhur muhuḥ",
+        "hindi_meaning": "हे राजन्! केशव और अर्जुन के इस अद्भुत और पुण्य संवाद को बार-बार स्मरण करके मैं बार-बार हर्षित होता हूँ।",
+        "meaning": "O King, as I repeatedly recall this wondrous and holy dialogue between Kṛṣṇa and Arjuna, I take pleasure, being thrilled at every moment."
+      },
+      {
+        "id": 681,
+        "verse_number": 77,
+        "chapter_number": 18,
+        "text": "तच्च संस्मृत्य संस्मृत्य रूपमत्यद्भुतं हरेः |\nविस्मयो मे महान्राजन्हृष्यामि च पुनः पुनः ||१८-७७||",
+        "transliteration": "tac cha saṁsmṛitya saṁsmṛitya rūpam aty-adbhutaṁ hareḥ\nvismayo me mahān rājan hṛiṣhyāmi cha punaḥ punaḥ",
+        "hindi_meaning": "हे राजन्! हरे के उस अत्यद्भुत रूप को बार-बार स्मरण करके मेरा महान विस्मय होता है और मैं बार-बार हर्षित होता हूँ।",
+        "meaning": "O King, as I remember the wonderful form of Lord Kṛṣṇa, I am struck with wonder more and more, and I rejoice again and again."
+      },
+      {
+        "id": 682,
+        "verse_number": 78,
+        "chapter_number": 18,
+        "text": "यत्र योगेश्वरः कृष्णो यत्र पार्थो धनुर्धरः |\nतत्र श्रीर्विजयो भूतिर्ध्रुवा नीतिर्मतिर्मम ||१८-७८||",
+        "transliteration": "yatra yogaśhvaraḥ kṛiṣhṇo yatra pārtho dhanur-dharaḥ\ntatra śhrīr vijayo bhūtir dhruvā nītir matir mama",
+        "hindi_meaning": "जहाँ योगेश्वर कृष्ण हैं और जहाँ धनुर्धर पार्थ हैं, वहाँ श्री, विजय, भूति, ध्रुवा नीति और मेरी मति है।",
+        "meaning": "Wherever there is Kṛṣṇa, the master of all mystics, and wherever there is Arjuna, the supreme archer, there will also certainly be opulence, victory, extraordinary power, and morality. That is my opinion."
+      }
+    ]
+  },
 ]
