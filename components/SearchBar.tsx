@@ -82,10 +82,10 @@ const SearchBar: React.FC<SearchBarProps> = ({ chapters, onSelectChapter, onSele
           onChange={(e) => setSearchQuery(e.target.value)}
           onFocus={() => searchQuery && setIsOpen(true)}
           placeholder="Search chapters or verses..."
-          className="w-full px-4 py-2 pl-10 pr-4 bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm border border-orange-200 dark:border-orange-800 rounded-lg shadow-md focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent text-gray-800 dark:text-gray-200 placeholder-gray-500 dark:placeholder-gray-400"
+          className="w-full px-4 py-2 pl-10 pr-4 bg-white/80 backdrop-blur-sm border border-orange-200 rounded-lg shadow-md focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent text-gray-800 placeholder-gray-500"
         />
         <svg
-          className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-orange-600 dark:text-orange-400"
+          className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-orange-600"
           fill="none"
           stroke="currentColor"
           viewBox="0 0 24 24"
@@ -95,27 +95,27 @@ const SearchBar: React.FC<SearchBarProps> = ({ chapters, onSelectChapter, onSele
       </div>
 
       {isOpen && results.length > 0 && (
-        <div className="absolute z-50 w-full mt-2 bg-white dark:bg-gray-800 rounded-lg shadow-xl border border-orange-200 dark:border-orange-800 max-h-96 overflow-y-auto">
+        <div className="absolute z-50 w-full mt-2 bg-white rounded-lg shadow-xl border border-orange-200 max-h-96 overflow-y-auto">
           {results.map((result, index) => (
             <button
               key={`${result.chapter.id}-${index}`}
               onClick={() => handleSelect(result.chapter, result.verse?.number)}
-              className="w-full text-left px-4 py-3 hover:bg-orange-50 dark:hover:bg-gray-700 transition-colors border-b border-orange-100 dark:border-gray-700 last:border-0"
+              className="w-full text-left px-4 py-3 hover:bg-orange-50 transition-colors border-b border-orange-100 last:border-0"
             >
               <div className="flex items-start">
-                <span className="bg-orange-800 dark:bg-orange-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm mr-3 flex-shrink-0">
+                <span className="bg-orange-800 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm mr-3 flex-shrink-0">
                   {result.chapter.chapter_number}
                 </span>
                 <div className="flex-1 min-w-0">
-                  <p className="font-semibold text-orange-900 dark:text-orange-300 font-sanskrit text-sm">
+                  <p className="font-semibold text-orange-900 font-sanskrit text-sm">
                     {result.chapter.name}
                   </p>
                   {result.verse && (
-                    <p className="text-xs text-gray-600 dark:text-gray-400 mt-1 font-sanskrit">
+                    <p className="text-xs text-gray-600 mt-1 font-sanskrit">
                       Verse {result.verse.number}: {result.verse.text}
                     </p>
                   )}
-                  <p className="text-xs text-gray-500 dark:text-gray-500 mt-1">
+                  <p className="text-xs text-gray-500 mt-1">
                     {result.chapter.name_meaning}
                   </p>
                 </div>

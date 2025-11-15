@@ -41,7 +41,7 @@ const ChapterCard3D: React.FC<ChapterCard3DProps> = ({ chapter, onSelectChapter 
       onMouseMove={handleMouseMove}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={handleMouseLeave}
-      className="bg-white/50 dark:bg-gray-800/50 border border-orange-200/50 dark:border-orange-800/50 rounded-xl shadow-lg p-6 cursor-pointer transition-all duration-300 hover:shadow-2xl relative"
+      className="bg-white/50 border border-orange-200/50 rounded-xl shadow-lg p-6 cursor-pointer transition-all duration-300 hover:shadow-2xl relative"
       style={{
         transformStyle: 'preserve-3d',
         transition: 'transform 0.1s ease-out, box-shadow 0.3s ease',
@@ -55,12 +55,12 @@ const ChapterCard3D: React.FC<ChapterCard3DProps> = ({ chapter, onSelectChapter 
           {chapter.chapter_number}
         </span>
         <div style={{ transform: 'translateZ(20px)' }}>
-          <h2 className="text-2xl font-bold text-orange-900 dark:text-orange-300 font-sanskrit">{chapter.name}</h2>
-          <p className="text-orange-700 dark:text-orange-400">{chapter.name_meaning}</p>
+          <h2 className="text-2xl font-bold text-orange-900 font-sanskrit">{chapter.name}</h2>
+          <p className="text-orange-700">{chapter.name_meaning}</p>
         </div>
       </div>
       <p 
-        className="text-gray-600 dark:text-gray-300 leading-relaxed"
+        className="text-gray-600 leading-relaxed"
         style={{ transform: 'translateZ(10px)' }}
       >
         {chapter.summary}
