@@ -220,7 +220,7 @@ const ChapterView: React.FC<ChapterViewProps> = ({ chapter, initialVerseIndex = 
         >
           <div
             ref={cardRef}
-            className="bg-white/60 dark:bg-gray-800/60 backdrop-blur-sm border border-orange-200/50 dark:border-orange-800/50 rounded-xl shadow-lg p-6 md:p-8 text-center"
+            className="bg-white/60 backdrop-blur-sm border border-orange-200/50 rounded-xl shadow-lg p-6 md:p-8 text-center"
             style={{
               transformStyle: 'preserve-3d',
               transition: 'transform 0.6s cubic-bezier(0.4, 0, 0.2, 1)',
@@ -228,9 +228,12 @@ const ChapterView: React.FC<ChapterViewProps> = ({ chapter, initialVerseIndex = 
             }}
           >
             <div style={{ backfaceVisibility: 'hidden' }}>
-                <p className="font-sanskrit text-2xl md:text-3xl text-orange-900 dark:text-orange-300 leading-relaxed mb-4">{currentVerse.text}</p>
-                <p className="text-lg md:text-xl text-orange-800 dark:text-orange-400 italic mb-6">{currentVerse.transliteration}</p>
-                <p className="text-gray-700 dark:text-gray-300 leading-relaxed">{currentVerse.meaning}</p>
+                <p className="font-sanskrit text-2xl md:text-3xl text-orange-900 leading-relaxed mb-4">{currentVerse.text}</p>
+                <p className="text-lg md:text-xl text-orange-800 italic mb-6">{currentVerse.transliteration}</p>
+                {currentVerse.hindi_meaning && (
+                  <p className="text-lg md:text-xl text-orange-700 mb-6 leading-relaxed whitespace-pre-line">{currentVerse.hindi_meaning}</p>
+                )}
+                <p className="text-gray-700 leading-relaxed">{currentVerse.meaning}</p>
             </div>
           </div>
         </div>
@@ -247,12 +250,12 @@ const ChapterView: React.FC<ChapterViewProps> = ({ chapter, initialVerseIndex = 
             </button>
             <div className="flex flex-col items-center gap-2">
               <div className="flex items-center gap-3">
-                <span className="text-orange-800 dark:text-orange-300 font-semibold">
+                <span className="text-orange-800 font-semibold">
                   Verse {currentVerse.verse_number} of {chapter.verses_count}
                 </span>
                 <ShareButton chapter={chapter} verse={currentVerse} />
               </div>
-              <span className="text-xs text-gray-500 dark:text-gray-400">
+              <span className="text-xs text-gray-500">
                 Use ← → arrow keys or swipe to navigate
               </span>
             </div>

@@ -5,6 +5,7 @@ export interface Verse {
   chapter_number: number;
   text: string;
   transliteration: string;
+  hindi_meaning: string;
   meaning: string;
 }
 
